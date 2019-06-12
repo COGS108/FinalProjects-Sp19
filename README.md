@@ -1,6 +1,7 @@
 # COGS108_Team174
 # Haoyin Xu
 # Yosuke Koike
+# Chin To Chim
 
 
 Procedure:
