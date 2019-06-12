@@ -1,6 +1,6 @@
 # COGS108_Team174
 # Haoyin Xu
-
+# Yosuke Koike
 
 
 Procedure:
