@@ -1,4 +1,9 @@
 # COGS108_Team174
+# Haoyin Xu
+
+
+
+
 Data Wangling
 Process of wrangling:
 1. read csv file into panda dataframe
