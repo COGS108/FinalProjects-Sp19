@@ -3,9 +3,7 @@
 
 
 
-
-Data Wangling
-Process of wrangling:
+Procedure:
 1. read csv file into panda dataframe
 2. remove the missing values using dropna() although there was no missing value
 3. droped the 'Code' column since it is repetetive with 'Name' column
