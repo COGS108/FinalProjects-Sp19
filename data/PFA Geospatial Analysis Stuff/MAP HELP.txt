@@ -1,0 +1,7 @@
+Police Force Area Map file: https://geoportal.statistics.gov.uk/datasets/police-force-areas-december-2016-full-extent-boundaries-in-england-and-wales/data
+
+
+Guides:
+http://www.geraintianpalmer.org.uk/2017/09/22/plotting-geopandas/
+https://www.datacamp.com/community/tutorials/geospatial-data-python
+https://towardsdatascience.com/lets-make-a-map-using-geopandas-pandas-and-matplotlib-to-make-a-chloropleth-map-dddc31c1983d
