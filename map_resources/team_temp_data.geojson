@@ -1,0 +1,704 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0f0f",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Dolphins",
+        "cname": "Miami",
+        "temp": 67.3994708994709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2388604,
+          25.9579665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffb2b2",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Oilers",
+        "cname": "Houston",
+        "temp": "61.9375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4045091,
+          29.6434328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff5d5d",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Chargers",
+        "cname": "San Diego",
+        "temp": 60.59726962457338
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1195716,
+          32.7831122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffe6e6",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Packers",
+        "cname": "Green Bay",
+        "temp": 45.914956011730204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0622083,
+          44.5013406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff8686",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Falcons",
+        "cname": "Atlanta",
+        "temp": 57.02840909090909
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4030437,
+          33.7554483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffcdcd",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Bills",
+        "cname": "Buffalo",
+        "temp": 50.810344827586206
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.789161,
+          42.7737546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffc9c9",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Lions",
+        "cname": "Detroit",
+        "temp": 51.16935483870968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0477917,
+          42.3400064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffe1e1",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Steelers",
+        "cname": "Pittsburgh",
+        "temp": 49.101736972704714
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.017949,
+          40.4467648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff8a8a",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "49ers",
+        "cname": "San Francisco",
+        "temp": 56.6875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9716,
+          37.402642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+	    "marker-color": "#ffbfbf",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Cardinals",
+        "cname": "St. Louis",
+        "temp": 52.07971014492754
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1950096,
+          38.6226188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffa4a4",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Redskins",
+        "cname": "Washington",
+        "temp": 54.40112994350282
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8667341,
+          38.9076433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff6b6b",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Rams",
+        "cname": "Los Angeles",
+        "temp": 59.41125541125541
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3494088,
+          33.9840438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffd6d6",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Browns",
+        "cname": "Cleveland",
+        "temp": 50.10294117647059
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.7017368,
+          41.5060535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7676",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Cowboys",
+        "cname": "Dallas",
+        "temp": 58.382716049382715
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0944939,
+          32.7472844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffc7c7",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Broncos",
+        "cname": "Denver",
+        "temp": 51.367123287671234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0222981,
+          39.7438895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffe8e8",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Vikings",
+        "cname": "Minnesota",
+        "temp": 48.49767441860465
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2600041,
+          44.9737514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+	    "marker-color": "#ff9c9c",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Jets",
+        "cname": "New York",
+        "temp": 55.089928057553955
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0766457,
+          40.8135064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff8b8b",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Raiders",
+        "cname": "Oakland",
+        "temp": 56.56956521739131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2027345,
+          37.7515946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffaeae",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Eagles",
+        "cname": "Philadelphia",
+        "temp": 53.578947368421055
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1696522,
+          39.9007674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffc6c6",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Colts",
+        "cname": "Baltimore",
+        "temp": 51.45454545454545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6290597,
+          39.3070073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+	    "marker-color": "#ffffff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Patriots",
+        "cname": "Boston",
+        "temp": 46.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1191667,
+          42.3533333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffa8a8",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Giants",
+        "cname": "New York",
+        "temp": 54.10248447204969
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0766457,
+          40.8135064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffd3d3",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Bears",
+        "cname": "Chicago",
+        "temp": 50.2952380952381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6188771,
+          41.8623132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff7676",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Saints",
+        "cname": "New Orleans",
+        "temp": 58.419117647058826
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0834329,
+          29.951061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffbcbc",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Chiefs",
+        "cname": "Kansas City",
+        "temp": 52.31683168316832
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4861044,
+          39.0489391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffd8d8",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Bengals",
+        "cname": "Cincinnati",
+        "temp": 49.88172043010753
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5182464,
+          39.0954576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffc0c0",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Patriots",
+        "cname": "New England",
+        "temp": 51.98776758409786
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2665352,
+          42.0909458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0b0b",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Buccaneers",
+        "cname": "Tampa Bay",
+        "temp": 67.71428571428571
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5055231,
+          27.9758691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff6565",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Raiders",
+        "cname": "Los Angeles",
+        "temp": 59.87735849056604
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2878754,
+          34.0140526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+	    "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Cardinals",
+        "cname": "Phoenix",
+        "temp": 68.67857142857143
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.264748,
+          33.5276247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff3737",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Cardinals",
+        "cname": "Arizona",
+        "temp": 63.89333333333333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.264748,
+          33.5276247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffa7a7",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Seahawks",
+        "cname": "Seattle",
+        "temp": 54.16875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3333717,
+          47.595848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff4040",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Jaguars",
+        "cname": "Jacksonville",
+        "temp": 63.0703125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.639478,
+          30.323972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff6b6b",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Rams",
+        "cname": "St. Louis",
+        "temp": 56.71052631578947
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1906955,
+          38.6328232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff8d8d",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Panthers",
+        "cname": "Carolina",
+        "temp": 56.37719298245614
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8550352,
+          35.2258108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffacac",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Ravens",
+        "cname": "Baltimore",
+        "temp": 53.73154362416108
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6248931,
+          39.2779876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tname": "Oilers",
+        "cname": "Tennessee",
+        "temp": 61.9375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7734785,
+          36.166479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff8b8b",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Titans",
+        "cname": "Tennessee",
+        "temp": 56.6283185840708
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7734785,
+          36.166479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff5959",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "tname": "Texans",
+        "cname": "Houston",
+        "temp": 60.96774193548387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4128961,
+          29.6847219
+        ]
+      }
+    }
+  ]
+}
