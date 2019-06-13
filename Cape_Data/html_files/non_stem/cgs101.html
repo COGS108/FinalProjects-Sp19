@@ -1,0 +1,663 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=cgs+101" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="cgs 101" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Whitley, Leila Marie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=955927" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI19</td><td align="right">44</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">18</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">76.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">76.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">4.74</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">A- (3.77)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Zarate, Salvador Elias</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=922335" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI18</td><td align="right">40</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">24</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">95.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">95.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">5.58</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">A- (3.71)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">A- (3.78)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Eileraas, Karina Astrid</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=887559" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI17</td><td align="right">38</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">18</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">77.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">61.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">3.91</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B+ (3.35)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B+ (3.69)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Santizo, Gabriela Domitila</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=854125" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI16</td><td align="right">46</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">27</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">80.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">88.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">5.42</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.63)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">A- (3.83)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Kheshti, Roshanak</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=824302" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI15</td><td align="right">58</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">28</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">85.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">4.27</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B+ (3.65)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">B+ (3.48)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Cappelli, Maria Ghira</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=791676" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI14</td><td align="right">36</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">15</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">85.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">6.07</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">B- (2.97)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Kheshti, Roshanak</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=761683" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI13</td><td align="right">30</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">5.03</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B+ (3.64)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">B+ (3.39)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Diaz, Josen Gayle                  </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="../scripts/detailedStats.asp?SectionId=744271" target="_blank">CGS 101   - Gender,Modernity&Globalization (A)</a>
+                </td><td>SP12</td><td align="right">35</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">6.79</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">A- (3.70)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B+ (3.56)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Voyles, Traci Brynne               </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="../scripts/detailedStats.asp?SectionId=718521" target="_blank">CGS 101   - Gender,Modernity&Globalization (A)</a>
+                </td><td>S111</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">8.72</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Kheshti, Roshanak                  </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="../scripts/detailedStats.asp?SectionId=699717" target="_blank">CGS 101   - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI11</td><td align="right">53</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">33</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">90.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">97.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">6.20</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B+ (3.39)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Suarez, Harrod                     </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="../scripts/detailedStats.asp?SectionId=685903" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>SU10</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">12</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">81.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">90.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">6.32</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">A- (3.82)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Voyles, Traci Brynne               </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="../scripts/detailedStats.asp?SectionId=680240" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>SP10</td><td align="right">44</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">26</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">96.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">4.35</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">A- (3.74)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">A- (3.74)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Woodhull, Winifred Johanna         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="../scripts/detailedStats.asp?SectionId=655798" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>SU09</td><td align="right">24</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">71.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">6.21</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Kheshti, Roshanak</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="../scripts/detailedStats.asp?SectionId=645614" target="_blank">CGS 101 - Gender,Modernity&Globalization (A)</a>
+                </td><td>WI09</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">94.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">5.20</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">A- (3.71)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">A- (3.74)</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

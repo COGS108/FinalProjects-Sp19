@@ -1,0 +1,1167 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=soci+100" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM3NTUwOTE3OA9kFgJmD2QWAgIJD2QWAgIBD2QWAgIVD2QWAmYPZBYEAgMPZBYCAgEPDxYCHgRUZXh0ZWRkAgUPPCsADQEADxYGHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AiMeB1Zpc2libGVnZBYCZg9kFkpmDw8WAh4MVGFibGVTZWN0aW9uCyopU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5UYWJsZVJvd1NlY3Rpb24AZGQCAQ9kFhRmDw8WAh8ABRVHb2xkbWFuLCBIYXJ2ZXkgU3Rlcm5kZAIBD2QWBgIBDw8WAh8ABQQ0OTgwZGQCAw8PFgIfAAUGOTU5MjQ5ZGQCBQ8PFgQeC05hdmlnYXRlVXJsBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTk1OTI0OR8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBFdJMTlkZAIDDw8WAh8ABQI2MmRkAgQPZBYCAgEPDxYCHwAFAjI0ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg3LjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5NS41ICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjQxZGQCCA9kFgQCAQ8PFgIfAAUQMy4wODY5NTY1MjE3MzkxM2RkAgMPDxYCHwAFCEIgKDMuMDkpZGQCCQ9kFgICAQ8PFgIfAGVkZAICD2QWFGYPDxYCHwAFF01lZHZldHosIFRob21hcyBNYXR0aGV3ZGQCAQ9kFgYCAQ8PFgIfAAUENDk3MGRkAgMPDxYCHwAFBjk0NTM3MWRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9OTQ1MzcxHwAFLFNPQ0kgMTAwIC0gQ2xhc3NpY2FsIFNvY2lvbG9naWNhbCBUaGVvcnkgKEEpZGQCAg8PFgIfAAUERkExOGRkAgMPDxYCHwAFAzEwN2RkAgQPZBYCAgEPDxYCHwAFAjUzZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjc5LjIgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4OS40ICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjQ2ZGQCCA9kFgQCAQ8PFgIfAAUQMy4yMjkxNjY2NjY2NjY2N2RkAgMPDxYCHwAFCEIgKDMuMjMpZGQCCQ9kFgQCAQ8PFgIfAAUQMy4yNTE1MTUxNTE1MTUxNWRkAgMPDxYCHwAFCEIgKDMuMjUpZGQCAw9kFhRmDw8WAh8ABRdDYXJ0ZXIsIEhhcnJpc29uIEJsYWluZWRkAgEPZBYGAgEPDxYCHwAFBDQ5MzBkZAIDDw8WAh8ABQY5NDAyNTVkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTk0MDI1NR8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBFMxMThkZAIDDw8WAh8ABQIyNWRkAgQPZBYCAgEPDxYCHwAFAjE1ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg2LjcgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUEOS44M2RkAggPZBYEAgEPDxYCHwAFEDIuNjkyMzA3NjkyMzA3NjlkZAIDDw8WAh8ABQlDKyAoMi42OSlkZAIJD2QWBAIBDw8WAh8ABRAzLjIxODE4MTgxODE4MTgyZGQCAw8PFgIfAAUIQiAoMy4yMilkZAIED2QWFGYPDxYCHwAFD1NoYWZpciwgR2Vyc2hvbmRkAgEPZBYGAgEPDxYCHwAFBDQ5MjBkZAIDDw8WAh8ABQY5MzU5NzNkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTkzNTk3Mx8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBFNQMThkZAIDDw8WAh8ABQI0OWRkAgQPZBYCAgEPDxYCHwAFAjE2ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjU2LjMgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY0My44ICVkZAIHD2QWAgIBDw8WAh8ABQQ2Ljg4ZGQCCA9kFgQCAQ8PFgIfAAUGMi42ODc1ZGQCAw8PFgIfAAUJQysgKDIuNjkpZGQCCQ9kFgQCAQ8PFgIfAAUQMy4wMzYxNzAyMTI3NjU5NmRkAgMPDxYCHwAFCEIgKDMuMDQpZGQCBQ9kFhRmDw8WAh8ABRVHb2xkbWFuLCBIYXJ2ZXkgU3Rlcm5kZAIBD2QWBgIBDw8WAh8ABQQ0OTAwZGQCAw8PFgIfAAUGOTEzNjMzZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD05MTM2MzMfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRGQTE3ZGQCAw8PFgIfAAUDMTI2ZGQCBA9kFgICAQ8PFgIfAAUCNjhkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNjkuNyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkwLjggJWRkAgcPZBYCAgEPDxYCHwAFBDcuMTBkZAIID2QWBAIBDw8WAh8ABQgyLjgyODEyNWRkAgMPDxYCHwAFCUItICgyLjgzKWRkAgkPZBYEAgEPDxYCHwAFEDMuMDM0ODIxNDI4NTcxNDNkZAIDDw8WAh8ABQhCICgzLjAzKWRkAgYPZBYUZg8PFgIfAAUXQ2FydGVyLCBIYXJyaXNvbiBCbGFpbmVkZAIBD2QWBgIBDw8WAh8ABQQ0ODcwZGQCAw8PFgIfAAUGOTE2MTYxZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD05MTYxNjEfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRTMjE3ZGQCAw8PFgIfAAUCMTVkZAIED2QWAgIBDw8WAh8ABQE4ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUHMTAwLjAgJWRkAgcPZBYCAgEPDxYCHwAFBDguMDBkZAIID2QWBAIBDw8WAh8ABQUzLjYyNWRkAgMPDxYCHwAFCUIrICgzLjYzKWRkAgkPZBYCAgEPDxYCHwBlZGQCBw9kFhRmDw8WAh8ABRJCaWVybmFja2ksIFJpY2hhcmRkZAIBD2QWBgIBDw8WAh8ABQQ0ODUwZGQCAw8PFgIfAAUGODk3NTEyZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD04OTc1MTIfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRTUDE3ZGQCAw8PFgIfAAUCMzVkZAIED2QWAgIBDw8WAh8ABQIxNGRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5Mi4zICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUHMTAwLjAgJWRkAgcPZBYCAgEPDxYCHwAFBDYuMDBkZAIID2QWBAIBDw8WAh8ABRAzLjIzMDc2OTIzMDc2OTIzZGQCAw8PFgIfAAUIQiAoMy4yMylkZAIJD2QWBAIBDw8WAh8ABQQzLjA1ZGQCAw8PFgIfAAUIQiAoMy4wNSlkZAIID2QWFGYPDxYCHwAFFUdvbGRtYW4sIEhhcnZleSBTdGVybmRkAgEPZBYGAgEPDxYCHwAFBDQ4MzBkZAIDDw8WAh8ABQY4ODEzNjNkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTg4MTM2Mx8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBEZBMTZkZAIDDw8WAh8ABQI4OWRkAgQPZBYCAgEPDxYCHwAFAjQ3ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjgyLjIgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5MS4xICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjczZGQCCA9kFgQCAQ8PFgIfAAUQMy4xMzk1MzQ4ODM3MjA5M2RkAgMPDxYCHwAFCEIgKDMuMTQpZGQCCQ9kFgQCAQ8PFgIfAAUQMy4xNDA1MDYzMjkxMTM5MmRkAgMPDxYCHwAFCEIgKDMuMTQpZGQCCQ9kFhRmDw8WAh8ABQ9QaW56dXIsIERhdmlkIExkZAIBD2QWBgIBDw8WAh8ABQQ0NzkwZGQCAw8PFgIfAAUGODczMjM4ZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD04NzMyMzgfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRTMTE2ZGQCAw8PFgIfAAUBN2RkAgQPZBYCAgEPDxYCHwAFATZkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUHMTAwLjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUEOC41MGRkAggPZBYEAgEPDxYCHwAFAzMuNWRkAgMPDxYCHwAFCUIrICgzLjUwKWRkAgkPZBYCAgEPDxYCHwBlZGQCCg9kFhRmDw8WAh8ABRdNZWR2ZXR6LCBUaG9tYXMgTWF0dGhld2RkAgEPZBYGAgEPDxYCHwAFBDQ3NzBkZAIDDw8WAh8ABQY4NTgyOTVkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTg1ODI5NR8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBFdJMTZkZAIDDw8WAh8ABQI3M2RkAgQPZBYCAgEPDxYCHwAFAjI2ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjczLjEgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4OC41ICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjEyZGQCCA9kFgQCAQ8PFgIfAAUEMy4zMmRkAgMPDxYCHwAFCUIrICgzLjMyKWRkAgkPZBYEAgEPDxYCHwAFEDMuMTc4NDYxNTM4NDYxNTRkZAIDDw8WAh8ABQhCICgzLjE4KWRkAgsPZBYUZg8PFgIfAAUVR29sZG1hbiwgSGFydmV5IFN0ZXJuZGQCAQ9kFgYCAQ8PFgIfAAUENDc2MGRkAgMPDxYCHwAFBjg0ODYyNmRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9ODQ4NjI2HwAFLFNPQ0kgMTAwIC0gQ2xhc3NpY2FsIFNvY2lvbG9naWNhbCBUaGVvcnkgKEEpZGQCAg8PFgIfAAUERkExNWRkAgMPDxYCHwAFAjgwZGQCBA9kFgICAQ8PFgIfAAUCNDZkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzMuOCAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjc4LjYgJWRkAgcPZBYCAgEPDxYCHwAFBDcuMjhkZAIID2QWBAIBDw8WAh8ABRAzLjE0NjM0MTQ2MzQxNDYzZGQCAw8PFgIfAAUIQiAoMy4xNSlkZAIJD2QWBAIBDw8WAh8ABRAyLjg3NjcxMjMyODc2NzEyZGQCAw8PFgIfAAUJQi0gKDIuODgpZGQCDA9kFhRmDw8WAh8ABRVQYXluZSwgQ2hyaXN0aW5lIEFubmFkZAIBD2QWBgIBDw8WAh8ABQQ0NzMwZGQCAw8PFgIfAAUGODQzMzAyZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD04NDMzMDIfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRTMjE1ZGQCAw8PFgIfAAUCMTVkZAIED2QWAgIBDw8WAh8ABQE5ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUHMTAwLjAgJWRkAgcPZBYCAgEPDxYCHwAFBDYuNTBkZAIID2QWBAIBDw8WAh8ABQUzLjEyNWRkAgMPDxYCHwAFCEIgKDMuMTMpZGQCCQ9kFgICAQ8PFgIfAGVkZAIND2QWFGYPDxYCHwAFF01lZHZldHosIFRob21hcyBNYXR0aGV3ZGQCAQ9kFgYCAQ8PFgIfAAUENDcwMGRkAgMPDxYCHwAFBjgyNjY1N2RkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9ODI2NjU3HwAFLFNPQ0kgMTAwIC0gQ2xhc3NpY2FsIFNvY2lvbG9naWNhbCBUaGVvcnkgKEEpZGQCAg8PFgIfAAUEV0kxNWRkAgMPDxYCHwAFAjYxZGQCBA9kFgICAQ8PFgIfAAUCMjZkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzguMyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg3LjAgJWRkAgcPZBYCAgEPDxYCHwAFBDUuNzJkZAIID2QWBAIBDw8WAh8ABQEzZGQCAw8PFgIfAAUIQiAoMy4wMClkZAIJD2QWBAIBDw8WAh8ABRAzLjA2MTExMTExMTExMTExZGQCAw8PFgIfAAUIQiAoMy4wNilkZAIOD2QWFGYPDxYCHwAFFUdvbGRtYW4sIEhhcnZleSBTdGVybmRkAgEPZBYGAgEPDxYCHwAFBDQ2OTBkZAIDDw8WAh8ABQY4MTY4NjBkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTgxNjg2MB8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBEZBMTRkZAIDDw8WAh8ABQI2NmRkAgQPZBYCAgEPDxYCHwAFAjI0ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjY2LjcgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4MS4wICVkZAIHD2QWAgIBDw8WAh8ABQQ5LjYwZGQCCA9kFgQCAQ8PFgIfAAUQMi43MTQyODU3MTQyODU3MWRkAgMPDxYCHwAFCUItICgyLjcxKWRkAgkPZBYEAgEPDxYCHwAFEDIuNzI2MjI5NTA4MTk2NzJkZAIDDw8WAh8ABQlCLSAoMi43MylkZAIPD2QWFGYPDxYCHwAFD1Bpbnp1ciwgRGF2aWQgTGRkAgEPZBYGAgEPDxYCHwAFBDQ2NjBkZAIDDw8WAh8ABQY4MTMyOTJkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTgxMzI5Mh8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBFMyMTRkZAIDDw8WAh8ABQIxN2RkAgQPZBYCAgEPDxYCHwAFAjEyZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjYzLjYgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUEOS45NWRkAggPZBYEAgEPDxYCHwAFEDMuMTgxODE4MTgxODE4MThkZAIDDw8WAh8ABQhCICgzLjE4KWRkAgkPZBYCAgEPDxYCHwBlZGQCEA9kFhRmDw8WAh8ABRpEYXViZXIgR3JpZmZpbiwgQW5kcmVhIFN0ZWRkAgEPZBYGAgEPDxYCHwAFBDQ2MzBkZAIDDw8WAh8ABQY3OTUxOTdkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTc5NTE5Nx8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBFdJMTRkZAIDDw8WAh8ABQI3NGRkAgQPZBYCAgEPDxYCHwAFAjIyZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjQyLjkgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY2MS45ICVkZAIHD2QWAgIBDw8WAh8ABQQ1Ljg3ZGQCCA9kFgQCAQ8PFgIfAAUBM2RkAgMPDxYCHwAFCEIgKDMuMDApZGQCCQ9kFgQCAQ8PFgIfAAUQMi42MTY5MjMwNzY5MjMwOGRkAgMPDxYCHwAFCUMrICgyLjYyKWRkAhEPZBYUZg8PFgIfAAUVR29sZG1hbiwgSGFydmV5IFN0ZXJuZGQCAQ9kFgYCAQ8PFgIfAAUENDYyMGRkAgMPDxYCHwAFBjc4NDc5OWRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9Nzg0Nzk5HwAFLFNPQ0kgMTAwIC0gQ2xhc3NpY2FsIFNvY2lvbG9naWNhbCBUaGVvcnkgKEEpZGQCAg8PFgIfAAUERkExM2RkAgMPDxYCHwAFAjc4ZGQCBA9kFgICAQ8PFgIfAAUCNDJkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNTguNSAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg3LjggJWRkAgcPZBYCAgEPDxYCHwAFBDkuNzBkZAIID2QWBAIBDw8WAh8ABQUyLjYyNWRkAgMPDxYCHwAFCUMrICgyLjYzKWRkAgkPZBYEAgEPDxYCHwAFEDIuNTY5MTE3NjQ3MDU4ODJkZAIDDw8WAh8ABQlDKyAoMi41NylkZAISD2QWFGYPDxYCHwAFFlRob3JwZSwgQ2hhcmxlcyBSb2JlcnRkZAIBD2QWBgIBDw8WAh8ABQQ0NTgwZGQCAw8PFgIfAAUGNzc5NzU1ZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD03Nzk3NTUfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRTMTEzZGQCAw8PFgIfAAUCMThkZAIED2QWAgIBDw8WAh8ABQEzZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUHMTAwLjAgJWRkAgcPZBYCAgEPDxYCHwAFBDUuMTdkZAIID2QWBAIBDw8WAh8ABRAzLjMzMzMzMzMzMzMzMzMzZGQCAw8PFgIfAAUJQisgKDMuMzMpZGQCCQ9kFgICAQ8PFgIfAGVkZAITD2QWFGYPDxYCHwAFFlRob3JwZSwgQ2hhcmxlcyBSb2JlcnRkZAIBD2QWBgIBDw8WAh8ABQQ0NTcwZGQCAw8PFgIfAAUGNzc0MDYzZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD03NzQwNjMfAAUsU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAoQSlkZAICDw8WAh8ABQRTUDEzZGQCAw8PFgIfAAUDMTA1ZGQCBA9kFgICAQ8PFgIfAAUCNDJkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGMjkuMyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjQxLjUgJWRkAgcPZBYCAgEPDxYCHwAFBDcuMTBkZAIID2QWBAIBDw8WAh8ABRAyLjc4OTQ3MzY4NDIxMDUzZGQCAw8PFgIfAAUJQi0gKDIuNzkpZGQCCQ9kFgQCAQ8PFgIfAAUFMi41MTNkZAIDDw8WAh8ABQlDKyAoMi41MSlkZAIUD2QWFGYPDxYCHwAFFUdvbGRtYW4sIEhhcnZleSBTdGVybmRkAgEPZBYGAgEPDxYCHwAFBDQ1NTBkZAIDDw8WAh8ABQY3NTQwMzhkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTc1NDAzOB8ABSxTT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5IChBKWRkAgIPDxYCHwAFBEZBMTJkZAIDDw8WAh8ABQMxMDBkZAIED2QWAgIBDw8WAh8ABQIzOWRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY0OC41ICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzguOCAlZGQCBw9kFgICAQ8PFgIfAAUENy4zOGRkAggPZBYEAgEPDxYCHwAFEDIuODM4NzA5Njc3NDE5MzZkZAIDDw8WAh8ABQlCLSAoMi44NClkZAIJD2QWBAIBDw8WAh8ABQUzLjEwOGRkAgMPDxYCHwAFCEIgKDMuMTEpZGQCFQ9kFhRmDw8WAh8ABSNHb2xkbWFuLCBIYXJ2ZXkgU3Rlcm4gICAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQ1MTBkZAIDDw8WAh8ABQY3NDcyNzJkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD03NDcyNzIfAAUvU09DSSAxMDAgICAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5ICAoQSlkZAICDw8WAh8ABQRTMTEyZGQCAw8PFgIfAAUCMzNkZAIED2QWAgIBDw8WAh8ABQIxMGRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4MC4wICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODAuMCAlZGQCBw9kFgICAQ8PFgIfAAUEOS41MGRkAggPZBYEAgEPDxYCHwAFEDMuMzMzMzMzMzMzMzMzMzNkZAIDDw8WAh8ABQlCKyAoMy4zMylkZAIJD2QWBAIBDw8WAh8ABRAyLjUzNTQ4Mzg3MDk2Nzc0ZGQCAw8PFgIfAAUJQysgKDIuNTQpZGQCFg9kFhRmDw8WAh8ABSNNZWR2ZXR6LCBUaG9tYXMgTWF0dGhldyAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQ0OTBkZAIDDw8WAh8ABQY3MzA4NzBkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD03MzA4NzAfAAUvU09DSSAxMDAgICAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5ICAoQSlkZAICDw8WAh8ABQRXSTEyZGQCAw8PFgIfAAUDMTE1ZGQCBA9kFgICAQ8PFgIfAAUCNTVkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzcuNCAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjk0LjIgJWRkAgcPZBYCAgEPDxYCHwAFBDYuMzVkZAIID2QWBAIBDw8WAh8ABQQzLjI0ZGQCAw8PFgIfAAUIQiAoMy4yNClkZAIJD2QWBAIBDw8WAh8ABQUyLjg5MmRkAgMPDxYCHwAFCUItICgyLjg5KWRkAhcPZBYUZg8PFgIfAAUjR29tZXosIEFkYW0gSm9zZXBoICAgICAgICAgICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0NDgwZGQCAw8PFgIfAAUGNzIyMDUxZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NzIyMDUxHwAFL1NPQ0kgMTAwICAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUERkExMWRkAgMPDxYCHwAFAzE4NmRkAgQPZBYCAgEPDxYCHwAFAzEzNGRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY3OC40ICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTQuOCAlZGQCBw9kFgICAQ8PFgIfAAUENy40MWRkAggPZBYEAgEPDxYCHwAFDzMuMjAxNTUwMzg3NTk2OWRkAgMPDxYCHwAFCEIgKDMuMjApZGQCCQ9kFgQCAQ8PFgIfAAUFMy4wNThkZAIDDw8WAh8ABQhCICgzLjA2KWRkAhgPZBYUZg8PFgIfAAUjR29sZG1hbiwgSGFydmV5IFN0ZXJuICAgICAgICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0NDQwZGQCAw8PFgIfAAUGNzE4ODI0ZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NzE4ODI0HwAFL1NPQ0kgMTAwICAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUEUzExMWRkAgMPDxYCHwAFAjI3ZGQCBA9kFgICAQ8PFgIfAAUBN2RkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIHD2QWAgIBDw8WAh8ABQQ1LjY0ZGQCCA9kFgQCAQ8PFgIfAAUBM2RkAgMPDxYCHwAFCEIgKDMuMDApZGQCCQ9kFgQCAQ8PFgIfAAUQMi43MTE1Mzg0NjE1Mzg0NmRkAgMPDxYCHwAFCUItICgyLjcxKWRkAhkPZBYUZg8PFgIfAAUjQmllcm5hY2tpLCBSaWNoYXJkICAgICAgICAgICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0NDIwZGQCAw8PFgIfAAUGNzAxMTk0ZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NzAxMTk0HwAFL1NPQ0kgMTAwICAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUEV0kxMWRkAgMPDxYCHwAFAjYwZGQCBA9kFgICAQ8PFgIfAAUCMzZkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODguOSAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjk3LjIgJWRkAgcPZBYCAgEPDxYCHwAFBDcuNzhkZAIID2QWBAIBDw8WAh8ABRAzLjMzMzMzMzMzMzMzMzMzZGQCAw8PFgIfAAUJQisgKDMuMzMpZGQCCQ9kFgQCAQ8PFgIfAAUFMy4wOTZkZAIDDw8WAh8ABQhCICgzLjEwKWRkAhoPZBYUZg8PFgIfAAUjR29sZG1hbiwgSGFydmV5IFN0ZXJuICAgICAgICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0NDEwZGQCAw8PFgIfAAUGNjkwNTkzZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NjkwNTkzHwAFLVNPQ0kgMTAwIC0gQ2xhc3NpY2FsIFNvY2lvbG9naWNhbCBUaGVvcnkgIChBKWRkAgIPDxYCHwAFBEZBMTBkZAIDDw8WAh8ABQMxNTNkZAIED2QWAgIBDw8WAh8ABQI3OGRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY2MC4zICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODIuMSAlZGQCBw9kFgICAQ8PFgIfAAUEOC4xOGRkAggPZBYEAgEPDxYCHwAFEDIuOTQyODU3MTQyODU3MTRkZAIDDw8WAh8ABQlCLSAoMi45NClkZAIJD2QWBAIBDw8WAh8ABQUzLjA3OGRkAgMPDxYCHwAFCEIgKDMuMDgpZGQCGw9kFhRmDw8WAh8ABSNHb2xkbWFuLCBIYXJ2ZXkgU3Rlcm4gICAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQ0MDBkZAIDDw8WAh8ABQY2ODYxODRkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD02ODYxODQfAAUtU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUEU1UxMGRkAgMPDxYCHwAFAjMyZGQCBA9kFgICAQ8PFgIfAAUBNmRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY1MC4wICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODMuMyAlZGQCBw9kFgICAQ8PFgIfAAUFMTIuNTBkZAIID2QWBAIBDw8WAh8ABQMzLjJkZAIDDw8WAh8ABQhCICgzLjIwKWRkAgkPZBYCAgEPDxYCHwBlZGQCHA9kFhRmDw8WAh8ABSNNZWR2ZXR6LCBUaG9tYXMgTWF0dGhldyAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQzNzBkZAIDDw8WAh8ABQY2Njg5MzRkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD02Njg5MzQfAAUtU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUEV0kxMGRkAgMPDxYCHwAFAzExMmRkAgQPZBYCAgEPDxYCHwAFAjQ0ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg1LjcgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUENC45MmRkAggPZBYEAgEPDxYCHwAFEDMuNDg4MzcyMDkzMDIzMjZkZAIDDw8WAh8ABQlCKyAoMy40OSlkZAIJD2QWBAIBDw8WAh8ABQUzLjI3NmRkAgMPDxYCHwAFCEIgKDMuMjgpZGQCHQ9kFhRmDw8WAh8ABSNHb2xkbWFuLCBIYXJ2ZXkgU3Rlcm4gICAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQzNjBkZAIDDw8WAh8ABQY2NTk0NjlkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD02NTk0NjkfAAUtU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUERkEwOWRkAgMPDxYCHwAFAzExMWRkAgQPZBYCAgEPDxYCHwAFAjc1ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjc3LjggJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5OC42ICVkZAIHD2QWAgIBDw8WAh8ABQQ2Ljk2ZGQCCA9kFgQCAQ8PFgIfAAUQMy4yMzk0MzY2MTk3MTgzMWRkAgMPDxYCHwAFCEIgKDMuMjQpZGQCCQ9kFgQCAQ8PFgIfAAUFMi45OThkZAIDDw8WAh8ABQlCLSAoMy4wMClkZAIeD2QWFGYPDxYCHwAFI0dvbGRtYW4sIEhhcnZleSBTdGVybiAgICAgICAgICAgICAgZGQCAQ9kFgYCAQ8PFgIfAAUENDM1MGRkAgMPDxYCHwAFBjY1NTc0M2RkAgUPDxYEHwUFLS4uL3NjcmlwdHMvZGV0YWlsZWRTdGF0cy5hc3A/U2VjdGlvbklkPTY1NTc0Mx8ABS1TT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5ICAoQSlkZAICDw8WAh8ABQRTVTA5ZGQCAw8PFgIfAAUCMTdkZAIED2QWAgIBDw8WAh8ABQE1ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjQwLjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUEOS43MGRkAggPZBYEAgEPDxYCHwAFATNkZAIDDw8WAh8ABQhCICgzLjAwKWRkAgkPZBYCAgEPDxYCHwBlZGQCHw9kFhRmDw8WAh8ABSNHb2xkbWFuLCBIYXJ2ZXkgU3Rlcm4gICAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQzMTBkZAIDDw8WAh8ABQY2NDg1NTJkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD02NDg1NTIfAAUtU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUEU1AwOWRkAgMPDxYCHwAFAjg3ZGQCBA9kFgICAQ8PFgIfAAUCNjZkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTAuOSAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIHD2QWAgIBDw8WAh8ABQQ1LjE0ZGQCCA9kFgQCAQ8PFgIfAAUQMy4zNjUwNzkzNjUwNzkzN2RkAgMPDxYCHwAFCUIrICgzLjM3KWRkAgkPZBYEAgEPDxYCHwAFBTMuMTkzZGQCAw8PFgIfAAUIQiAoMy4xOSlkZAIgD2QWFGYPDxYCHwAFI0JpZXJuYWNraSwgUmljaGFyZCAgICAgICAgICAgICAgICAgZGQCAQ9kFgYCAQ8PFgIfAAUENDI5MGRkAgMPDxYCHwAFBjYyOTE0NGRkAgUPDxYEHwUFLS4uL3NjcmlwdHMvZGV0YWlsZWRTdGF0cy5hc3A/U2VjdGlvbklkPTYyOTE0NB8ABS1TT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5ICAoQSlkZAICDw8WAh8ABQRGQTA4ZGQCAw8PFgIfAAUDMTA4ZGQCBA9kFgICAQ8PFgIfAAUCNThkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTMuMSAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjk4LjMgJWRkAgcPZBYCAgEPDxYCHwAFBDUuMjJkZAIID2QWBAIBDw8WAh8ABRAzLjQyMTA1MjYzMTU3ODk1ZGQCAw8PFgIfAAUJQisgKDMuNDIpZGQCCQ9kFgQCAQ8PFgIfAAUFMy4xODVkZAIDDw8WAh8ABQhCICgzLjE5KWRkAiEPZBYUZg8PFgIfAAUeU2tyZW50bnksIEpvaG4gRGF2aWQgICAgICAgICAgZGQCAQ9kFgYCAQ8PFgIfAAUENDI0MGRkAgMPDxYCHwAFBjYyMDI1MWRkAgUPDxYEHwUFLS4uL3NjcmlwdHMvZGV0YWlsZWRTdGF0cy5hc3A/U2VjdGlvbklkPTYyMDI1MR8ABS1TT0NJIDEwMCAtIENsYXNzaWNhbCBTb2Npb2xvZ2ljYWwgVGhlb3J5ICAoQSlkZAICDw8WAh8ABQRTUDA4ZGQCAw8PFgIfAAUDMTA1ZGQCBA9kFgICAQ8PFgIfAAUCNzRkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODkuMCAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIHD2QWAgIBDw8WAh8ABQQ0Ljg4ZGQCCA9kFgQCAQ8PFgIfAAUQMy4zODM1NjE2NDM4MzU2MmRkAgMPDxYCHwAFCUIrICgzLjM4KWRkAgkPZBYEAgEPDxYCHwAFBTMuMTgyZGQCAw8PFgIfAAUIQiAoMy4xOClkZAIiD2QWFGYPDxYCHwAFHkdvbGRtYW4sIEhhcnZleSBTdGVybiAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQyMjBkZAIDDw8WAh8ABQY1OTg5ODRkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD01OTg5ODQfAAUtU09DSSAxMDAgLSBDbGFzc2ljYWwgU29jaW9sb2dpY2FsIFRoZW9yeSAgKEEpZGQCAg8PFgIfAAUERkEwN2RkAgMPDxYCHwAFAjk4ZGQCBA9kFgICAQ8PFgIfAAUCNjNkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzguNyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkxLjcgJWRkAgcPZBYCAgEPDxYCHwAFBDYuMzNkZAIID2QWBAIBDw8WAh8ABQ8zLjIyNTgwNjQ1MTYxMjlkZAIDDw8WAh8ABQhCICgzLjIzKWRkAgkPZBYEAgEPDxYCHwAFBTIuOTYxZGQCAw8PFgIfAAUJQi0gKDIuOTYpZGQCIw9kFhRmDw8WAh8ABR5Hb2xkbWFuLCBIYXJ2ZXkgU3Rlcm4gICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0MjEwZGQCAw8PFgIfAAUGNTk1MDkxZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NTk1MDkxHwAFLVNPQ0kgMTAwIC0gQ2xhc3NpY2FsIFNvY2lvbG9naWNhbCBUaGVvcnkgIChBKWRkAgIPDxYCHwAFBFNVMDdkZAIDDw8WAh8ABQIxNWRkAgQPZBYCAgEPDxYCHwAFAjE1ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkzLjMgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUENS45M2RkAggPZBYEAgEPDxYCHwAFEDMuNTcxNDI4NTcxNDI4NTdkZAIDDw8WAh8ABQlCKyAoMy41NylkZAIJD2QWAgIBDw8WAh8AZWRkAiQPDxYCHwNoZGQYAQUhY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRndkNBUEVzDzwrAAoBCAIBZFCf13E9+XIdHe/SZiWeeksyU2zW" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="soci 100" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=959249" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>WI19</td><td align="right">62</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">24</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">87.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">95.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">6.41</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B (3.09)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=945371" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA18</td><td align="right">107</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">53</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">79.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">89.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">6.46</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B (3.23)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">B (3.25)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Carter, Harrison Blaine</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=940255" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>S118</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">15</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">86.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">9.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">C+ (2.69)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B (3.22)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Shafir, Gershon</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=935973" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>SP18</td><td align="right">49</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">56.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">43.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">6.88</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">C+ (2.69)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B (3.04)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=913633" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA17</td><td align="right">126</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">68</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">69.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">90.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">7.10</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B- (2.83)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">B (3.03)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Carter, Harrison Blaine</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=916161" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>S217</td><td align="right">15</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">8.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B+ (3.63)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Biernacki, Richard</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=897512" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>SP17</td><td align="right">35</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">92.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">6.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B (3.23)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">B (3.05)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=881363" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA16</td><td align="right">89</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">47</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">82.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">91.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">6.73</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B (3.14)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B (3.14)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Pinzur, David L</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=873238" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>S116</td><td align="right">7</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">8.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=858295" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>WI16</td><td align="right">73</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">26</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">73.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">88.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">6.12</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.32)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B (3.18)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=848626" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA15</td><td align="right">80</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">46</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">73.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">78.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">7.28</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B- (2.88)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Payne, Christine Anna</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=843302" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>S215</td><td align="right">15</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B (3.13)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=826657" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>WI15</td><td align="right">61</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">26</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">78.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">87.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">5.72</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">B (3.06)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=816860" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA14</td><td align="right">66</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">24</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">66.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">81.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">9.60</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B- (2.71)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">B- (2.73)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Pinzur, David L</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="CAPEReport.aspx?sectionid=813292" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>S214</td><td align="right">17</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">12</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">63.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">9.95</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B (3.18)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Dauber Griffin, Andrea Ste</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="CAPEReport.aspx?sectionid=795197" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>WI14</td><td align="right">74</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">22</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">42.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">61.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">5.87</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">C+ (2.62)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="CAPEReport.aspx?sectionid=784799" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA13</td><td align="right">78</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">42</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">58.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">87.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">9.70</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">C+ (2.63)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">C+ (2.57)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Thorpe, Charles Robert</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="CAPEReport.aspx?sectionid=779755" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>S113</td><td align="right">18</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">5.17</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Thorpe, Charles Robert</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="CAPEReport.aspx?sectionid=774063" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>SP13</td><td align="right">105</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">42</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">29.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">41.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">7.10</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">B- (2.79)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">C+ (2.51)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="CAPEReport.aspx?sectionid=754038" target="_blank">SOCI 100 - Classical Sociological Theory (A)</a>
+                </td><td>FA12</td><td align="right">100</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">39</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">48.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">78.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">7.38</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B- (2.84)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">B (3.11)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="../scripts/detailedStats.asp?SectionId=747272" target="_blank">SOCI 100   - Classical Sociological Theory  (A)</a>
+                </td><td>S112</td><td align="right">33</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">9.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">C+ (2.54)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Medvetz, Thomas Matthew            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="../scripts/detailedStats.asp?SectionId=730870" target="_blank">SOCI 100   - Classical Sociological Theory  (A)</a>
+                </td><td>WI12</td><td align="right">115</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">55</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">77.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">94.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">6.35</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">B (3.24)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">B- (2.89)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Gomez, Adam Joseph                 </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_hlViewReport" href="../scripts/detailedStats.asp?SectionId=722051" target="_blank">SOCI 100   - Classical Sociological Theory  (A)</a>
+                </td><td>FA11</td><td align="right">186</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">134</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendCourse">78.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendInstructor">94.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblStudyHours">7.41</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeExpected">B (3.20)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeReceived">B (3.06)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_hlViewReport" href="../scripts/detailedStats.asp?SectionId=718824" target="_blank">SOCI 100   - Classical Sociological Theory  (A)</a>
+                </td><td>S111</td><td align="right">27</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblStudyHours">5.64</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeReceived">B- (2.71)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Biernacki, Richard                 </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_hlViewReport" href="../scripts/detailedStats.asp?SectionId=701194" target="_blank">SOCI 100   - Classical Sociological Theory  (A)</a>
+                </td><td>WI11</td><td align="right">60</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">36</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendCourse">88.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendInstructor">97.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblStudyHours">7.78</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeReceived">B (3.10)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_hlViewReport" href="../scripts/detailedStats.asp?SectionId=690593" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>FA10</td><td align="right">153</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">78</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendCourse">60.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendInstructor">82.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblStudyHours">8.18</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeExpected">B- (2.94)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeReceived">B (3.08)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_hlViewReport" href="../scripts/detailedStats.asp?SectionId=686184" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>SU10</td><td align="right">32</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendCourse">50.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendInstructor">83.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblStudyHours">12.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeExpected">B (3.20)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Medvetz, Thomas Matthew            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_hlViewReport" href="../scripts/detailedStats.asp?SectionId=668934" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>WI10</td><td align="right">112</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">44</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblStudyHours">4.92</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeExpected">B+ (3.49)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeReceived">B (3.28)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_hlViewReport" href="../scripts/detailedStats.asp?SectionId=659469" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>FA09</td><td align="right">111</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">75</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendCourse">77.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendInstructor">98.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblStudyHours">6.96</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeExpected">B (3.24)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeReceived">B- (3.00)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_hlViewReport" href="../scripts/detailedStats.asp?SectionId=655743" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>SU09</td><td align="right">17</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendCourse">40.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblStudyHours">9.70</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_hlViewReport" href="../scripts/detailedStats.asp?SectionId=648552" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>SP09</td><td align="right">87</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">66</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendCourse">90.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblStudyHours">5.14</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeExpected">B+ (3.37)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeReceived">B (3.19)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Biernacki, Richard                 </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_hlViewReport" href="../scripts/detailedStats.asp?SectionId=629144" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>FA08</td><td align="right">108</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">58</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendCourse">93.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendInstructor">98.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblStudyHours">5.22</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeExpected">B+ (3.42)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeReceived">B (3.19)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Skrentny, John David          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_hlViewReport" href="../scripts/detailedStats.asp?SectionId=620251" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>SP08</td><td align="right">105</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">74</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendCourse">89.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblStudyHours">4.88</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeExpected">B+ (3.38)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeReceived">B (3.18)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Goldman, Harvey Stern         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_hlViewReport" href="../scripts/detailedStats.asp?SectionId=598984" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>FA07</td><td align="right">98</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">63</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendCourse">78.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendInstructor">91.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblStudyHours">6.33</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeExpected">B (3.23)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeReceived">B- (2.96)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goldman, Harvey Stern         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_hlViewReport" href="../scripts/detailedStats.asp?SectionId=595091" target="_blank">SOCI 100 - Classical Sociological Theory  (A)</a>
+                </td><td>SU07</td><td align="right">15</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">15</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendCourse">93.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblStudyHours">5.93</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

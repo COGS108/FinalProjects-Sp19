@@ -1,0 +1,663 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=lteu+158" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="lteu 158" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Cassedy, Steven Dennis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=906375" target="_blank">LTEU 158 - Single Author in Russian Lit (A)</a>
+                </td><td>FA17</td><td align="right">23</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">66.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">5.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">B+ (3.53)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Hart, Kevin Andrew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=872748" target="_blank">LTEU 158 - Single Author in Russian Lit (A)</a>
+                </td><td>SP16</td><td align="right">16</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">6.25</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">A- (3.88)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Cassedy, Steven Dennis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=853958" target="_blank">LTEU 158 - Single Author in Russian Lit (A)</a>
+                </td><td>WI16</td><td align="right">12</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">75.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">7.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">A- (3.75)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Cassedy, Steven Dennis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=791720" target="_blank">LTEU 158 - Single Author in Russian Lit (A)</a>
+                </td><td>WI14</td><td align="right">10</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">4.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B+ (3.49)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Cassedy, Steven Dennis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=772012" target="_blank">LTEU 158 - Single Author in Russian Lit (A)</a>
+                </td><td>SP13</td><td align="right">6</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Glaser, Amelia                     </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="../scripts/detailedStats.asp?SectionId=740899" target="_blank">LTEU 158   - Single Author in Russian Lit   (A)</a>
+                </td><td>SP12</td><td align="right">13</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">5.36</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">A- (3.86)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Glaser, Amelia                     </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="../scripts/detailedStats.asp?SectionId=745674" target="_blank">LTEU 158   - Single Author in Russian Lit   (A)</a>
+                </td><td>SP12</td><td align="right">8</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">5.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B (3.25)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Cassedy, Steven Dennis             </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="../scripts/detailedStats.asp?SectionId=726473" target="_blank">LTEU 158   - Single Author in Russian Lit   (A)</a>
+                </td><td>FA11</td><td align="right">5</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">5.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Cassedy, Steven Dennis             </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="../scripts/detailedStats.asp?SectionId=726472" target="_blank">LTEU 158   - Single Author in Russian Lit   (A)</a>
+                </td><td>FA11</td><td align="right">13</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">6.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Glaser, Amelia                     </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="../scripts/detailedStats.asp?SectionId=674700" target="_blank">LTEU 158 - Single Author in Russian Lit   (A)</a>
+                </td><td>WI10</td><td align="right">31</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">90.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">7.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">A- (3.70)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B+ (3.62)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Furman, Yelena                     </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="../scripts/detailedStats.asp?SectionId=663988" target="_blank">LTEU 158 - Single Author in Russian Lit   (B)</a>
+                </td><td>FA09</td><td align="right">23</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">95.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">3.60</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B (3.25)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B (3.18)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Cassedy, Steven Dennis             </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="../scripts/detailedStats.asp?SectionId=652496" target="_blank">LTEU 158 - Single Author in Russian Lit   (A)</a>
+                </td><td>SP09</td><td align="right">30</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">21</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">95.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">6.02</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B+ (3.56)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B- (2.82)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Glaser, Amelia                     </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="../scripts/detailedStats.asp?SectionId=635828" target="_blank">LTEU 158 - Single Author in Russian Lit   (A)</a>
+                </td><td>FA08</td><td align="right">10</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">A- (3.88)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Glaser, Amelia                </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="../scripts/detailedStats.asp?SectionId=607744" target="_blank">LTEU 158 - Single Author in Russian Lit   (A)</a>
+                </td><td>FA07</td><td align="right">18</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">15</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">7.17</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B+ (3.53)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

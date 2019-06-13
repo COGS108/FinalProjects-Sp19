@@ -1,0 +1,759 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=&amp;CourseNumber=cogs+101a" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="cogs 101a" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Hoffman, Drew Ellen</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=960460" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>WI19</td><td align="right">420</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">243</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">95.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">90.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">4.47</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.36)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Davis, Joshua Daniel</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=940418" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>S118</td><td align="right">64</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">44</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">93.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">95.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">5.82</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B+ (3.56)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">B+ (3.33)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Hoffman, Drew Ellen</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=938258" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>SP18</td><td align="right">399</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">314</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">94.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">94.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">4.19</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B+ (3.39)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B (3.01)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Hoffman, Drew Ellen</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=913267" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>FA17</td><td align="right">468</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">158</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">94.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">85.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">4.40</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.43)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B (3.07)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Walker, Esther Jane</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=900186" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>WI17</td><td align="right">90</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">39</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">97.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">5.47</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">B (3.24)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Barrera, Steven James</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=881095" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>FA16</td><td align="right">410</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">234</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">97.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">99.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">5.40</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B+ (3.38)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">B (3.04)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Barrera, Steven James</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=850616" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>FA15</td><td align="right">304</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">174</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">97.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">99.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">4.64</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B+ (3.52)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">B (3.22)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Barrera, Steven James</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=819342" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>FA14</td><td align="right">254</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">119</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">94.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">99.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">5.03</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B+ (3.54)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B (3.16)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Barrera, Steven James</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=783481" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>FA13</td><td align="right">214</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">95</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">96.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">97.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">4.63</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B+ (3.47)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">B (3.05)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Barrera, Steven James</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=780153" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>S213</td><td align="right">28</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">15</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">93.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">6.23</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.53)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B+ (3.39)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Barrera, Steven James</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=751638" target="_blank">COGS 101A - Sensation and Perception (A)</a>
+                </td><td>FA12</td><td align="right">296</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">146</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">97.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">97.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">5.01</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B (3.15)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Johnson, Christine M.              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="../scripts/detailedStats.asp?SectionId=747977" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>S212</td><td align="right">81</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">90.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">90.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">6.80</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B+ (3.30)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B (3.03)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Johnson, Christine M.              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="../scripts/detailedStats.asp?SectionId=720486" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>FA11</td><td align="right">223</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">97</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">94.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">95.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">5.20</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.45)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">B (3.05)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Johnson, Christine M.              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="../scripts/detailedStats.asp?SectionId=689490" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>FA10</td><td align="right">165</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">102</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">90.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">94.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">5.34</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B+ (3.43)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">B (3.02)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Barrera, Steven James              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="../scripts/detailedStats.asp?SectionId=685942" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>SU10</td><td align="right">54</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">24</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">91.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">5.33</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B+ (3.42)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Johnson, Christine M.              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="../scripts/detailedStats.asp?SectionId=659640" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>FA09</td><td align="right">157</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">118</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">93.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">92.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">4.19</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B+ (3.44)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">B- (2.88)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Groppe, David Martin</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="../scripts/detailedStats.asp?SectionId=639589" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>WI09</td><td align="right">187</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">98</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">95.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">90.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">4.85</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">B+ (3.41)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">B- (2.83)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Groppe, David Martin          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="../scripts/detailedStats.asp?SectionId=599205" target="_blank">COGS 101A  - Sensation and Perception       (A)</a>
+                </td><td>FA07</td><td align="right">117</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">70</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">95.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">79.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">4.73</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.32)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">C+ (2.68)</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

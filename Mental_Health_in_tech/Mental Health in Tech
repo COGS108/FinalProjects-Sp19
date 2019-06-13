@@ -1,0 +1,35 @@
+Mental Health in Tech Survey 
+
+Link to the data and download https://www.kaggle.com/ashwinireddy/mental-health-in-tech-survey-rpart
+
+
+Collumns: 
+
+Timestamp : not needed
+Age	: needed
+Gender : needed
+Country	: needed but only US
+state	: needed but only CA
+self_employed	: needed
+family_history	: not needed
+treatment	: not needed
+work_interfere	: not needed
+no_employees	: not needed
+remote_work	: needed if they have to work outside of the office more than 50% of the time 
+tech_company	: needed
+benefits	: not needed
+care_options	: not needed
+wellness_program	: not needed
+seek_help	: not needed
+anonymity	: not needed
+leave	: not needed
+mental_health_consequence	: not needed 
+phys_health_consequence	: not needed 
+coworkers	: not needed
+supervisor	: not needed
+mental_health_interview	: not needed
+phys_health_interview	: not needed
+mental_vs_physical	: not needed 
+obs_consequence	comments : not needed
+
+

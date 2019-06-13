@@ -1,0 +1,447 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=hius+186" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="hius 186" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Hendrickson, Gerald M.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=934625" target="_blank">HIUS 186 - Topics in U.S. Economic Histry (A)</a>
+                </td><td>SP18</td><td align="right">6</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">7.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Hendrickson, Gerald M.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=836664" target="_blank">HIUS 186 - Topics in U.S. Economic Histry (A)</a>
+                </td><td>SP15</td><td align="right">13</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">8.28</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B+ (3.56)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Hendrickson, Gerald M.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=795465" target="_blank">HIUS 186 - Topics in U.S. Economic Histry (A)</a>
+                </td><td>WI14</td><td align="right">10</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">7.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">A- (3.79)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Hendrickson, Gerald M.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=774535" target="_blank">HIUS 186 - Topics in U.S. Economic Histry (A)</a>
+                </td><td>SP13</td><td align="right">12</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">87.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">10.75</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B (3.14)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Hendrickson, Gerald M.             </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="../scripts/detailedStats.asp?SectionId=725254" target="_blank">HIUS 186   - Topics in U.S. Economic Histry (A)</a>
+                </td><td>FA11</td><td align="right">14</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">9.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">A- (3.83)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

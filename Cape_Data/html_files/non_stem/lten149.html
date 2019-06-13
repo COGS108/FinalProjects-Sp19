@@ -1,0 +1,855 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=lten+149" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="lten 149" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Walkiewicz, Kathryn A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=959590" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>WI19</td><td align="right">28</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">13</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">5.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">A- (3.85)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Walkiewicz, Kathryn A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=934680" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>SP18</td><td align="right">21</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">8.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">A- (3.88)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">A- (3.71)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Suzuki, Erin M.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=895811" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>SP17</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">92.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">5.27</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">A- (3.92)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">A- (3.76)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Vijay, Ameeth Varma</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=891742" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>WI17</td><td align="right">5</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">66.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">66.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">2.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Walkiewicz, Kathryn A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=883654" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>FA16</td><td align="right">11</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">7.75</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">A- (3.75)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lampert-Weissig, Lisa</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=867083" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>SP16</td><td align="right">10</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">9.93</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Vitkus, Daniel J.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=853951" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>WI16</td><td align="right">14</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">83.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">5.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Suzuki, Erin M.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=852351" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>FA15</td><td align="right">18</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">13</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">92.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">92.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">8.04</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B+ (3.38)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Nicolazzo, Sarah E.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=820559" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>FA14</td><td align="right">10</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">5.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">A- (3.75)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lampert-Weissig, Lisa</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=803901" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>SP14</td><td align="right">17</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">83.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">7.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Heintz, Lauren Allison</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=781633" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>S213</td><td align="right">16</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">7.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Wesling, Megan E.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=779553" target="_blank">LTEN 149GS - Themes/English & American Lit (A)</a>
+                </td><td>S113</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">5.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Dominguez, Andrea M</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=758383" target="_blank">LTEN 149 - Topics: English-Language Lit (A)</a>
+                </td><td>FA12</td><td align="right">9</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">7.17</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Frohlich, Soren</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=758384" target="_blank">LTEN 149 - Topics: English-Language Lit (B)</a>
+                </td><td>FA12</td><td align="right">11</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">8.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Tonkovich, Nicole                  </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="../scripts/detailedStats.asp?SectionId=730625" target="_blank">LTEN 149   - Topics: English-Language Lit   (A)</a>
+                </td><td>WI12</td><td align="right">17</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">7.70</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Jed, Stephanie H                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="../scripts/detailedStats.asp?SectionId=721209" target="_blank">LTEN 149   - Themes/English&American Lit    (A)</a>
+                </td><td>FA11</td><td align="right">46</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">A- (3.90)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">A (4.00)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Wesling, Megan E.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="../scripts/detailedStats.asp?SectionId=722896" target="_blank">LTEN 149GS - Themes/English & American Lit  (A)</a>
+                </td><td>S111</td><td align="right">28</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">15</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">A- (3.82)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">B+ (3.59)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Woodhull, Winifred Johanna         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="../scripts/detailedStats.asp?SectionId=694613" target="_blank">LTEN 149GS - Themes/English & American Lit  (A)</a>
+                </td><td>SU10</td><td align="right">26</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">60.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">40.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">4.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Wesling, Megan E.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="../scripts/detailedStats.asp?SectionId=682811" target="_blank">LTEN 149 - Themes/English&American Lit    (A)</a>
+                </td><td>SP10</td><td align="right">34</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">95.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">6.20</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">A- (3.70)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">B+ (3.61)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Woodhull, Winifred Johanna         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="../scripts/detailedStats.asp?SectionId=657203" target="_blank">LTEN 149 - Themes/English&American Lit    (A)</a>
+                </td><td>SU09</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">44.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">77.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">6.06</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B (3.29)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Wesling, Megan E.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="../scripts/detailedStats.asp?SectionId=635751" target="_blank">LTEN 149GS - Themes/English&American Lit    (A)</a>
+                </td><td>SU08</td><td align="right">13</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">13</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">A- (3.85)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Prindle, Paige Ann            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="../scripts/detailedStats.asp?SectionId=626128" target="_blank">LTEN 149 - Themes/English&American Lit    (A)</a>
+                </td><td>SP08</td><td align="right">23</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">5.63</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">B+ (3.38)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">B (3.17)</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

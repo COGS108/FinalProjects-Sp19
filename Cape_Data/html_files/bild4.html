@@ -1,0 +1,1167 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=&amp;CourseNumber=bild+4" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="bild 4" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=961807" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>WI19</td><td align="right">185</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">141</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">94.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">3.07</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.69)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Reuther, Keefe</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=961816" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>WI19</td><td align="right">176</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">135</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">90.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">99.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">3.05</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">A- (3.74)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mohan, Swarna</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=961825" target="_blank">BILD 4 - Introductory Biology Lab (C)</a>
+                </td><td>WI19</td><td align="right">173</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">130</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">89.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">82.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">3.32</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B+ (3.61)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=950745" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>FA18</td><td align="right">372</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">325</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">90.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">95.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">3.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B+ (3.69)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=950758" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>FA18</td><td align="right">186</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">148</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">96.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">97.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">2.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B+ (3.59)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">B+ (3.69)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=943833" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>S218</td><td align="right">57</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">23</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">90.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">4.21</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">A- (3.73)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Reuther, Keefe</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=940489" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>S118</td><td align="right">54</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">39</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">97.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">97.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">3.66</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">A- (3.78)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">A- (3.78)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Reuther, Keefe</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=939414" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>SP18</td><td align="right">176</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">126</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">87.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">97.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">3.18</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B+ (3.68)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B+ (3.52)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=939421" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>SP18</td><td align="right">180</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">115</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">94.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">99.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">3.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B+ (3.65)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">B+ (3.60)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=926023" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>WI18</td><td align="right">189</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">129</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">90.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">95.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">3.14</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B+ (3.43)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Reuther, Keefe</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=926030" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>WI18</td><td align="right">186</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">142</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">87.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">97.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">3.69</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B+ (3.59)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B+ (3.56)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=916394" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>FA17</td><td align="right">186</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">174</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">83.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">91.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">3.72</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B+ (3.58)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=916401" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>FA17</td><td align="right">184</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">151</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">81.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">86.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">3.81</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.49)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">B+ (3.58)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=916408" target="_blank">BILD 4 - Introductory Biology Lab (C)</a>
+                </td><td>FA17</td><td align="right">184</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">152</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">87.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">96.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">3.34</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B+ (3.40)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">B+ (3.60)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Reuther, Keefe</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="CAPEReport.aspx?sectionid=909785" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>S217</td><td align="right">54</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">47</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">85.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">5.80</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B+ (3.68)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="CAPEReport.aspx?sectionid=898883" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>SP17</td><td align="right">175</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">154</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">62.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">71.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">3.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B+ (3.49)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">B+ (3.45)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Bozinovic, Goran</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="CAPEReport.aspx?sectionid=898890" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>SP17</td><td align="right">136</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">64</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">78.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">78.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">3.87</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">B+ (3.59)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">B+ (3.62)</span>
+                </td>
+				</tr><tr class="even">
+					<td>McDonnell, Lisa Marie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="CAPEReport.aspx?sectionid=895245" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>WI17</td><td align="right">185</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">136</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">83.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">88.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">3.94</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.42)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">B+ (3.65)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="CAPEReport.aspx?sectionid=895252" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>WI17</td><td align="right">188</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">129</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">84.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">97.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">3.22</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">B+ (3.55)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">B+ (3.46)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Reuther, Keefe</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="CAPEReport.aspx?sectionid=895259" target="_blank">BILD 4 - Introductory Biology Lab (C)</a>
+                </td><td>WI17</td><td align="right">186</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">171</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">72.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">94.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">3.55</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B+ (3.38)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">B+ (3.52)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="CAPEReport.aspx?sectionid=878572" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>FA16</td><td align="right">182</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">175</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">88.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">92.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">3.94</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">B+ (3.51)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">A- (3.76)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="CAPEReport.aspx?sectionid=878579" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>FA16</td><td align="right">139</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">100</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">81.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">97.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">4.37</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">A- (3.77)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">A- (3.73)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_hlViewReport" href="CAPEReport.aspx?sectionid=878586" target="_blank">BILD 4 - Introductory Biology Lab (C)</a>
+                </td><td>FA16</td><td align="right">185</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">167</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendCourse">89.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendInstructor">97.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblStudyHours">3.43</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeExpected">B+ (3.69)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeReceived">A- (3.76)</span>
+                </td>
+				</tr><tr class="even">
+					<td>McDonnell, Lisa Marie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_hlViewReport" href="CAPEReport.aspx?sectionid=873283" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>S116</td><td align="right">43</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendCourse">78.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendInstructor">92.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblStudyHours">4.07</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeExpected">B+ (3.54)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeReceived">B+ (3.46)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_hlViewReport" href="CAPEReport.aspx?sectionid=871572" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>SP16</td><td align="right">201</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">157</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendCourse">69.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendInstructor">76.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblStudyHours">3.59</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeExpected">B+ (3.41)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeReceived">B+ (3.34)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_hlViewReport" href="CAPEReport.aspx?sectionid=871581" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>SP16</td><td align="right">197</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">127</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendCourse">84.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendInstructor">99.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblStudyHours">3.06</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeExpected">B+ (3.69)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeReceived">B (3.24)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Wang, Jean Yin Jen</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_hlViewReport" href="CAPEReport.aspx?sectionid=871622" target="_blank">BILD 40 - Intro to Biomed Research (A)</a>
+                </td><td>SP16</td><td align="right">81</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">39</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblStudyHours">0.68</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_hlViewReport" href="CAPEReport.aspx?sectionid=862196" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>WI16</td><td align="right">233</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">199</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendCourse">71.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendInstructor">89.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblStudyHours">2.84</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeReceived">B+ (3.32)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mel, Stephanie</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_hlViewReport" href="CAPEReport.aspx?sectionid=862205" target="_blank">BILD 4 - Introductory Biology Lab (B)</a>
+                </td><td>WI16</td><td align="right">239</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">203</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendCourse">85.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendInstructor">97.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblStudyHours">2.99</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeReceived">B+ (3.43)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_hlViewReport" href="CAPEReport.aspx?sectionid=847449" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>FA15</td><td align="right">248</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">165</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendCourse">82.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendInstructor">91.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblStudyHours">3.15</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeExpected">A- (3.71)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_hlViewReport" href="CAPEReport.aspx?sectionid=843367" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>S215</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">21</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblStudyHours">2.40</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeExpected">A- (3.90)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeReceived">B+ (3.33)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_hlViewReport" href="CAPEReport.aspx?sectionid=840363" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>SP15</td><td align="right">24</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblStudyHours">3.03</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeExpected">A- (3.85)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeReceived">B (3.23)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Wang, Jean Yin Jen</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_hlViewReport" href="CAPEReport.aspx?sectionid=840396" target="_blank">BILD 40 - Intro to Biomed Research (A)</a>
+                </td><td>SP15</td><td align="right">99</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">52</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendCourse">98.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendInstructor">98.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblStudyHours">1.10</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_hlViewReport" href="CAPEReport.aspx?sectionid=829774" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>WI15</td><td align="right">34</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">17</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblStudyHours">3.63</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeExpected">A- (3.75)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeReceived">B+ (3.47)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lo, Stanley Malvin Ming-Hi</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_hlViewReport" href="CAPEReport.aspx?sectionid=822192" target="_blank">BILD 4 - Introductory Biology Lab (A)</a>
+                </td><td>FA14</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">13</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblStudyHours">4.32</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeExpected">B+ (3.30)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

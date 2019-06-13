@@ -1,0 +1,1215 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=psyc+105" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="psyc 105" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Brady, Timothy Francis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=956891" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>WI19</td><td align="right">279</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">139</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">98.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">98.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">4.57</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.52)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Geller, Emma Harlan</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=944738" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>FA18</td><td align="right">202</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">164</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">99.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">99.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">5.27</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B+ (3.37)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">B- (2.94)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=941016" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>S218</td><td align="right">60</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">54</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">5.80</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B (3.23)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B- (2.83)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Brady, Timothy Francis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=924613" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>WI18</td><td align="right">214</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">115</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">97.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">98.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">4.55</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.55)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B (3.18)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Geller, Emma Harlan</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=911836" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>FA17</td><td align="right">128</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">111</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">96.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">99.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">5.85</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">B (3.19)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=909687" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>S217</td><td align="right">83</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">52</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">94.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">94.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">6.31</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B (3.28)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Brady, Timothy Francis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=898061" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>SP17</td><td align="right">147</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">77</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">95.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">95.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">4.01</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">B (3.03)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=877727" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>FA16</td><td align="right">237</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">203</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">90.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">95.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">5.05</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B (3.17)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B (3.01)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=875430" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>S216</td><td align="right">61</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">4.63</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B+ (3.53)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">B (3.10)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=854745" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>WI16</td><td align="right">188</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">79</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">96.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">98.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">4.77</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.44)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B (3.06)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Brady, Timothy Francis</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=847662" target="_blank">PSYC 105 - Cognitive Psychology (A)</a>
+                </td><td>FA15</td><td align="right">179</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">79</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">96.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">98.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">4.79</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B+ (3.49)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B- (2.81)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=842872" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>S115</td><td align="right">35</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">88.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">8.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B (3.11)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B (3.12)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=825583" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>WI15</td><td align="right">228</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">69</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">91.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">94.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">4.84</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.42)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">B (3.03)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=816454" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>FA14</td><td align="right">278</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">122</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">96.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">97.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">4.79</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B+ (3.53)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">B (3.08)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Higgins, Emily Catherine</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="CAPEReport.aspx?sectionid=813264" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>S214</td><td align="right">20</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">5.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B (3.25)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">B- (2.87)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="CAPEReport.aspx?sectionid=802352" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>SP14</td><td align="right">268</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">130</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">87.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">92.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">4.62</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B+ (3.36)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">B- (2.98)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="CAPEReport.aspx?sectionid=783282" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>FA13</td><td align="right">266</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">115</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">91.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">92.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">5.07</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">B+ (3.52)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">B (3.05)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="CAPEReport.aspx?sectionid=780451" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>S213</td><td align="right">55</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">17</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">5.68</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.59)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">B (3.05)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Huber, David</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="CAPEReport.aspx?sectionid=771788" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>SP13</td><td align="right">130</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">44</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">77.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">61.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">5.27</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">B (3.24)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">B- (3.00)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="CAPEReport.aspx?sectionid=763119" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>WI13</td><td align="right">279</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">121</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">90.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">90.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">4.57</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B+ (3.56)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">B+ (3.43)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Lowe, Angela Beth</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="CAPEReport.aspx?sectionid=752857" target="_blank">PSYC 105 - Introduction/Cognitive Psych (A)</a>
+                </td><td>FA12</td><td align="right">149</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">63</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">90.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">86.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">4.23</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">B (3.04)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Raiewski, Evan Eric                </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="../scripts/detailedStats.asp?SectionId=748287" target="_blank">PSYC 105   - Introduction/Cognitive Psych   (A)</a>
+                </td><td>S212</td><td align="right">49</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">13</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">76.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">84.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">8.65</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">B (3.23)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">C+ (2.53)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mc Kenzie, Craig R.M.              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_hlViewReport" href="../scripts/detailedStats.asp?SectionId=741480" target="_blank">PSYC 105   - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SP12</td><td align="right">255</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">115</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendCourse">76.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendInstructor">82.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblStudyHours">5.73</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeExpected">B (3.21)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeReceived">B (3.03)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mullane, Mary D.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_hlViewReport" href="../scripts/detailedStats.asp?SectionId=721698" target="_blank">PSYC 105   - Introduction/Cognitive Psych   (A)</a>
+                </td><td>FA11</td><td align="right">256</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">123</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendCourse">73.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendInstructor">41.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblStudyHours">5.71</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeExpected">B+ (3.31)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeReceived">C+ (2.63)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Raiewski, Evan Eric                </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_hlViewReport" href="../scripts/detailedStats.asp?SectionId=718803" target="_blank">PSYC 105   - Introduction/Cognitive Psych   (A)</a>
+                </td><td>S111</td><td align="right">36</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">31</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendCourse">66.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblStudyHours">6.95</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeExpected">B (3.10)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeReceived">B- (2.85)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Hadar, Liat                        </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_hlViewReport" href="../scripts/detailedStats.asp?SectionId=709010" target="_blank">PSYC 105   - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SP11</td><td align="right">302</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">110</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendCourse">69.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendInstructor">43.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblStudyHours">4.06</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeExpected">B (3.17)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeReceived">C+ (2.57)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Slattery, Timothy James            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_hlViewReport" href="../scripts/detailedStats.asp?SectionId=690041" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>FA10</td><td align="right">258</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">230</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendCourse">79.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendInstructor">68.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblStudyHours">5.32</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeExpected">B (3.24)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeReceived">B- (2.82)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mullane, Mary D.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_hlViewReport" href="../scripts/detailedStats.asp?SectionId=686443" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SU10</td><td align="right">35</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendInstructor">88.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblStudyHours">6.06</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Ng, Minna                          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_hlViewReport" href="../scripts/detailedStats.asp?SectionId=676873" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SP10</td><td align="right">276</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">125</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendCourse">85.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendInstructor">79.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblStudyHours">4.26</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeReceived">B- (2.71)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Peterzell, David                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_hlViewReport" href="../scripts/detailedStats.asp?SectionId=658104" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>FA09</td><td align="right">333</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">183</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendCourse">98.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendInstructor">97.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblStudyHours">3.70</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeExpected">B+ (3.69)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeReceived">B+ (3.33)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Cluver, Annette L.                 </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_hlViewReport" href="../scripts/detailedStats.asp?SectionId=657110" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SU09</td><td align="right">38</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendCourse">87.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendInstructor">75.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeExpected">B (3.13)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Peterzell, David                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_hlViewReport" href="../scripts/detailedStats.asp?SectionId=649826" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SP09</td><td align="right">300</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">101</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendCourse">96.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendInstructor">98.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblStudyHours">3.87</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeExpected">B+ (3.62)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeReceived">B+ (3.39)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Peterzell, David</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_hlViewReport" href="../scripts/detailedStats.asp?SectionId=644858" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>WI09</td><td align="right">280</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">157</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendCourse">92.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendInstructor">96.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblStudyHours">3.87</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeReceived">B+ (3.39)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pallett, Pamela Mitchell           </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_hlViewReport" href="../scripts/detailedStats.asp?SectionId=626792" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SU08</td><td align="right">33</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">19</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendInstructor">73.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblStudyHours">4.39</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Mc Kenzie, Craig R.M.         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_hlViewReport" href="../scripts/detailedStats.asp?SectionId=619966" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SP08</td><td align="right">186</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">82</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendCourse">81.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendInstructor">92.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblStudyHours">4.18</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeExpected">B+ (3.42)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeReceived">B- (2.93)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Huber, David                  </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_hlViewReport" href="../scripts/detailedStats.asp?SectionId=609538" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>WI08</td><td align="right">271</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">84</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblPercentRecommendCourse">81.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblPercentRecommendInstructor">85.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblStudyHours">4.38</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblGradeExpected">B+ (3.43)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblGradeReceived">B- (2.73)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Ard, Michael Colin            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_hlViewReport" href="../scripts/detailedStats.asp?SectionId=595077" target="_blank">PSYC 105 - Introduction/Cognitive Psych   (A)</a>
+                </td><td>SU07</td><td align="right">38</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">32</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblPercentRecommendInstructor">92.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblStudyHours">4.24</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblGradeExpected">B+ (3.37)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

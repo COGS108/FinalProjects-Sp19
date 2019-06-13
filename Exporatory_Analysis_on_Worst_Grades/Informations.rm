@@ -1,0 +1,22 @@
+Data from University of Washington
+
+Link to the data and download https://www.kaggle.com/mohitjoshi29/an-exploratory-analysis-on-worst-grades
+
+We're only using three datasets: 
+- course.csv
+- course_offerings.csv
+- grade_distribution.csv 
+
+course.csv
+    - UUID, Name, Number 
+    - only using ID and Name 
+    
+course_offerings.csv
+    - UUID, Course_offerings UUID, Term_code, Name 
+    - Using UUID, Course_offerings UUID, Name 
+    
+grade_distribution.csv
+    - Course_offerings UUID, Section numbers, letter grades, ect. 
+    - Keeping Course_offerings UUID, Letter grades
+    
+

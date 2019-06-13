@@ -1,0 +1,1215 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=&amp;CourseNumber=mae+110" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="mae 110" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=940292" target="_blank">MAE 110 - Thermodynamic Systems (A)</a>
+                </td><td>SP18</td><td align="right">15</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">71.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">8.21</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=910950" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>FA17</td><td align="right">145</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">40</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">89.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">89.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">9.69</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B (3.25)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">B (3.02)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=908776" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>S117</td><td align="right">73</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">95.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">90.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">12.60</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B- (2.76)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=890052" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>WI17</td><td align="right">160</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">70</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">92.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">86.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">9.53</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B (3.20)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B- (2.82)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Rangamani, Padmini</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=879064" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>FA16</td><td align="right">135</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">112</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">90.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">90.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">8.52</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B (3.06)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">C+ (2.64)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=872867" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>S116</td><td align="right">58</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">90.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">11.70</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">A- (3.70)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">C+ (2.47)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=864781" target="_blank">MAE 110B - Thermodynamic Systems (A)</a>
+                </td><td>SP16</td><td align="right">30</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">61.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">92.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">7.33</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">C+ (2.66)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=859689" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>WI16</td><td align="right">141</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">70</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">95.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">95.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">8.62</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B (3.27)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B (3.09)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Rangamani, Padmini</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=849138" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>FA15</td><td align="right">139</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">115</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">90.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">86.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">8.17</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B (3.26)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">B- (2.78)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=842207" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>S115</td><td align="right">52</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">11</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">90.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">90.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">9.17</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.40)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B- (2.85)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Rangamani, Padmini</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=825778" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>WI15</td><td align="right">104</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">91</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">90.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">80.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">7.71</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B- (2.81)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">C (2.23)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=818923" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>FA14</td><td align="right">121</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">56</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">88.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">75.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">8.05</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B (3.25)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B (3.02)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Folz, Patrick J</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=812564" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>S114</td><td align="right">32</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">29</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">89.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">79.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">7.81</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B (3.28)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">B (3.14)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Kleissl, Jan</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=795512" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>WI14</td><td align="right">82</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">38</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">97.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">83.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">9.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B (3.21)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">B (3.07)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Nomura, Keiko K.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="CAPEReport.aspx?sectionid=789769" target="_blank">MAE 110A - Thermodynamics (B)</a>
+                </td><td>FA13</td><td align="right">160</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">78</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">95.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">91.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">8.66</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B (3.05)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">C+ (2.57)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="CAPEReport.aspx?sectionid=779566" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>S113</td><td align="right">62</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">20</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">85.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">10.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B+ (3.35)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">B (3.01)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goddard, Joe D</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="CAPEReport.aspx?sectionid=764978" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>WI13</td><td align="right">67</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">39</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">74.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">17.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">7.74</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">B- (2.76)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">B- (2.79)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="CAPEReport.aspx?sectionid=752686" target="_blank">MAE 110A - Thermodynamics (A)</a>
+                </td><td>FA12</td><td align="right">150</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">70</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">89.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">89.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">7.66</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.35)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">C+ (2.47)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Bahadori, Mohammad Yousef          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="../scripts/detailedStats.asp?SectionId=748142" target="_blank">MAE 110B  - Thermodynamic Systems          (A)</a>
+                </td><td>S212</td><td align="right">5</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">8.10</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">B (3.20)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Jo, Seungbum                       </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="../scripts/detailedStats.asp?SectionId=747090" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>S112</td><td align="right">47</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">8.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B+ (3.40)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">C+ (2.64)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Coimbra, Carlos F.                 </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="../scripts/detailedStats.asp?SectionId=734366" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>WI12</td><td align="right">104</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">46</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">91.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">78.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">8.54</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">B- (2.87)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">C+ (2.62)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="../scripts/detailedStats.asp?SectionId=724183" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>FA11</td><td align="right">183</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">80</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">92.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">63.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">9.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">C+ (2.55)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Bahadori, Mohammad Yousef          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_hlViewReport" href="../scripts/detailedStats.asp?SectionId=719374" target="_blank">MAE 110B  - Thermodynamic Systems          (A)</a>
+                </td><td>S211</td><td align="right">22</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">11</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendCourse">63.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendInstructor">90.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblStudyHours">8.14</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeExpected">B (3.18)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeReceived">B (3.12)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_hlViewReport" href="../scripts/detailedStats.asp?SectionId=718690" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>S111</td><td align="right">65</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">34</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendCourse">97.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendInstructor">94.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblStudyHours">10.15</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeExpected">B (3.15)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeReceived">C+ (2.49)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Kleissl, Jan                       </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_hlViewReport" href="../scripts/detailedStats.asp?SectionId=701335" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>WI11</td><td align="right">117</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">63</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendCourse">88.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendInstructor">78.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblStudyHours">8.01</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeExpected">B (3.13)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeReceived">B (3.07)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_hlViewReport" href="../scripts/detailedStats.asp?SectionId=694125" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>FA10</td><td align="right">156</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">79</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendCourse">92.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendInstructor">96.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblStudyHours">8.53</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeExpected">B (3.24)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeReceived">B- (2.79)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_hlViewReport" href="../scripts/detailedStats.asp?SectionId=686062" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>SU10</td><td align="right">43</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">17</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendCourse">93.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblStudyHours">10.75</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_hlViewReport" href="../scripts/detailedStats.asp?SectionId=674548" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>WI10</td><td align="right">111</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">47</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendCourse">89.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendInstructor">97.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblStudyHours">9.18</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeExpected">B (3.26)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeReceived">C+ (2.45)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Kleissl, Jan                       </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_hlViewReport" href="../scripts/detailedStats.asp?SectionId=660654" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>FA09</td><td align="right">137</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">95</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendCourse">82.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendInstructor">76.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblStudyHours">6.37</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeExpected">B (3.16)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeReceived">C+ (2.63)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_hlViewReport" href="../scripts/detailedStats.asp?SectionId=656425" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>SU09</td><td align="right">72</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">32</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblStudyHours">10.94</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeExpected">B (3.26)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Bahadori, Mohammad Yousef          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_hlViewReport" href="../scripts/detailedStats.asp?SectionId=656863" target="_blank">MAE 110B  - Thermodynamic Systems          (A)</a>
+                </td><td>SU09</td><td align="right">15</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendInstructor">71.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblStudyHours">8.25</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Bahadori, Mohammad Yousef</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_hlViewReport" href="../scripts/detailedStats.asp?SectionId=644596" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>WI09</td><td align="right">92</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">33</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendCourse">66.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendInstructor">56.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblStudyHours">6.20</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeExpected">B (3.06)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeReceived">C+ (2.40)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Llewellyn Smith, Stefan G.         </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_hlViewReport" href="../scripts/detailedStats.asp?SectionId=633522" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>FA08</td><td align="right">163</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">98</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendCourse">53.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendInstructor">41.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblStudyHours">7.44</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeExpected">B- (2.91)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeReceived">B- (2.87)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Nomura, Keiko K.                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_hlViewReport" href="../scripts/detailedStats.asp?SectionId=626439" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>SU08</td><td align="right">73</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">57</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendCourse">94.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendInstructor">96.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblStudyHours">10.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeExpected">B (3.11)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Goddard, Joe D                </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_hlViewReport" href="../scripts/detailedStats.asp?SectionId=614111" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>WI08</td><td align="right">70</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">39</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendCourse">60.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendInstructor">13.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblStudyHours">8.91</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeExpected">B- (2.79)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeReceived">C+ (2.46)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Llewellyn Smith, Stefan G.    </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_hlViewReport" href="../scripts/detailedStats.asp?SectionId=603266" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>FA07</td><td align="right">131</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">43</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblPercentRecommendCourse">93.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblPercentRecommendInstructor">81.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblStudyHours">8.64</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblGradeExpected">B+ (3.37)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblGradeReceived">C+ (2.56)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Nomura, Keiko K.              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_hlViewReport" href="../scripts/detailedStats.asp?SectionId=594992" target="_blank">MAE 110A  - Thermodynamics                 (A)</a>
+                </td><td>SU07</td><td align="right">58</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">44</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblPercentRecommendCourse">92.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblPercentRecommendInstructor">95.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblStudyHours">10.59</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

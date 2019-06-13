@@ -1,0 +1,1239 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=soci+104" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="soci 104" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Raudenbush, Danielle</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=959334" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI19</td><td align="right">28</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">4.10</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Ribas Norris, Janet Vanesa</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=945375" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>FA18</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">87.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">5.25</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B+ (3.38)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Ribas Norris, Janet Vanesa</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=935975" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP18</td><td align="right">29</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">92.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">7.64</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B+ (3.44)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Raudenbush, Danielle</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=923184" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI18</td><td align="right">26</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">11</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">7.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B+ (3.56)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Turner, Christena L.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=923185" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (B)</a>
+                </td><td>WI18</td><td align="right">9</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">5.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Schneider, Heidi L.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=929130" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>WI18</td><td align="right">26</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">5.64</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">A- (3.78)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>McVey, Cristin M</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=918867" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (B)</a>
+                </td><td>FA17</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">6.21</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">B+ (3.55)</span>
+                </td>
+				</tr><tr class="even">
+					<td>DePalma, Lindsay Jean</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=897517" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP17</td><td align="right">20</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">86.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">7.21</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B (3.27)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B- (2.71)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Raudenbush, Danielle</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=889265" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI17</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">5.17</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">A- (3.78)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pinzur, David L</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=889266" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>WI17</td><td align="right">24</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">21</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">95.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">95.2 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">5.45</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">A- (3.82)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B+ (3.68)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=881370" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>FA16</td><td align="right">21</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">71.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">85.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B+ (3.43)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B+ (3.54)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Mullins, Ian Michael</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=858300" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>WI16</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">3.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B+ (3.43)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B+ (3.35)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=848633" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>FA15</td><td align="right">13</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">71.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">7.07</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.43)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>McVey, Cristin M</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=848634" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>FA15</td><td align="right">27</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">87.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">6.25</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">A- (3.93)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="CAPEReport.aspx?sectionid=836375" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP15</td><td align="right">20</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">66.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">3.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">B (3.24)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Raudenbush, Danielle</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="CAPEReport.aspx?sectionid=826661" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI15</td><td align="right">22</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">5.75</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B+ (3.63)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">B+ (3.60)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Klatch, Rebecca</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="CAPEReport.aspx?sectionid=816887" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>FA14</td><td align="right">18</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">75.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">75.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">9.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Turner, Christena L.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="CAPEReport.aspx?sectionid=802020" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP14</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">7.61</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">B+ (3.56)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="CAPEReport.aspx?sectionid=811048" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (B)</a>
+                </td><td>SP14</td><td align="right">15</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">40.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">B (3.20)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Ribas Norris, Janet Vanesa</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="CAPEReport.aspx?sectionid=795203" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI14</td><td align="right">21</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">75.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">87.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">7.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">B+ (3.50)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Vinson, Alexandra H</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="CAPEReport.aspx?sectionid=795204" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>WI14</td><td align="right">24</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">87.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">7.36</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">A- (3.86)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">B (3.18)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="CAPEReport.aspx?sectionid=784807" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>FA13</td><td align="right">20</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">8</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">85.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">7.93</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">B+ (3.40)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Medvetz, Thomas Matthew</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_hlViewReport" href="CAPEReport.aspx?sectionid=774069" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP13</td><td align="right">26</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblPercentRecommendInstructor">60.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblStudyHours">4.90</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl24_lblGradeReceived">B+ (3.62)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Ribas Norris, Janet Vanesa</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_hlViewReport" href="CAPEReport.aspx?sectionid=764316" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI13</td><td align="right">22</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">17</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendCourse">94.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblStudyHours">5.13</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeExpected">B+ (3.56)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl25_lblGradeReceived">B+ (3.66)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Sargent, Paul Walter</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_hlViewReport" href="CAPEReport.aspx?sectionid=754046" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>FA12</td><td align="right">20</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendCourse">71.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblPercentRecommendInstructor">85.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblStudyHours">8.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl26_lblGradeReceived">B+ (3.42)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Klatch, Rebecca</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_hlViewReport" href="CAPEReport.aspx?sectionid=754047" target="_blank">SOCI 104Q - Qualitative Interviewing (A)</a>
+                </td><td>FA12</td><td align="right">17</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblStudyHours">8.00</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeExpected">A (4.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl27_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>McVey, Cristin M                   </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_hlViewReport" href="../scripts/detailedStats.asp?SectionId=740669" target="_blank">SOCI 104Q  - Qualitative Interviewing       (A)</a>
+                </td><td>SP12</td><td align="right">28</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendCourse">92.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblPercentRecommendInstructor">92.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblStudyHours">5.88</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl28_lblGradeReceived">B+ (3.60)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Binder, Amy                        </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_hlViewReport" href="../scripts/detailedStats.asp?SectionId=730877" target="_blank">SOCI 104   - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI12</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">6</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeExpected">A- (3.80)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl29_lblGradeReceived">B- (2.71)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Kadanoff, David Bradley            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_hlViewReport" href="../scripts/detailedStats.asp?SectionId=727014" target="_blank">SOCI 104   - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>FA11</td><td align="right">21</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">18</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblStudyHours">6.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeExpected">B+ (3.59)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl30_lblGradeReceived">B+ (3.41)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Murphy, Marie Heather              </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_hlViewReport" href="../scripts/detailedStats.asp?SectionId=721670" target="_blank">SOCI 104   - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>S111</td><td align="right">14</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">5</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblPercentRecommendInstructor">40.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblStudyHours">10.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeExpected">B+ (3.60)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl31_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Shafran, Jonathan Kyle             </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_hlViewReport" href="../scripts/detailedStats.asp?SectionId=727314" target="_blank">SOCI 104   - Fld Res:Meth/Participnt Observ (B)</a>
+                </td><td>S111</td><td align="right">13</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">4</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblStudyHours">10.50</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeExpected">A- (3.75)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl32_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Medvetz, Thomas Matthew            </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_hlViewReport" href="../scripts/detailedStats.asp?SectionId=708772" target="_blank">SOCI 104   - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP11</td><td align="right">26</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">9</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendCourse">88.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblStudyHours">4.72</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl33_lblGradeReceived">A- (3.88)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Klatch, Rebecca                    </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_hlViewReport" href="../scripts/detailedStats.asp?SectionId=701203" target="_blank">SOCI 104Q  - Qualitative Interviewing       (A)</a>
+                </td><td>WI11</td><td align="right">17</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">10</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendCourse">90.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblPercentRecommendInstructor">90.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblStudyHours">9.10</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeExpected">B+ (3.30)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl34_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="even">
+					<td>Stern, Jonathan L                  </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_hlViewReport" href="../scripts/detailedStats.asp?SectionId=688203" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SU10</td><td align="right">19</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">7</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendCourse">71.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblPercentRecommendInstructor">71.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblStudyHours">3.93</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeExpected">B+ (3.57)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl35_lblGradeReceived">N/A</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Schairer, Cynthia Elizabeth        </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_hlViewReport" href="../scripts/detailedStats.asp?SectionId=676807" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP10</td><td align="right">24</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">13</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendCourse">84.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblPercentRecommendInstructor">92.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblStudyHours">7.27</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeExpected">B+ (3.31)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl36_lblGradeReceived">B (3.29)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Kidder, Jeffrey Lowell             </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_hlViewReport" href="../scripts/detailedStats.asp?SectionId=648559" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP09</td><td align="right">21</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">17</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblPercentRecommendCourse">61.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblPercentRecommendInstructor">75.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblStudyHours">4.13</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblGradeExpected">B+ (3.47)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl37_lblGradeReceived">B+ (3.51)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Turner, Christena L.          </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_hlViewReport" href="../scripts/detailedStats.asp?SectionId=620258" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>SP08</td><td align="right">20</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">11</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblStudyHours">3.59</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblGradeExpected">A- (3.90)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl38_lblGradeReceived">A- (3.77)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Klatch, Rebecca               </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_hlViewReport" href="../scripts/detailedStats.asp?SectionId=612999" target="_blank">SOCI 104 - Fld Res:Meth/Participnt Observ (A)</a>
+                </td><td>WI08</td><td align="right">18</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_lblPercentRecommendInstructor">92.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_lblStudyHours">6.35</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_lblGradeExpected">B+ (3.50)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl39_lblGradeReceived">N/A</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>

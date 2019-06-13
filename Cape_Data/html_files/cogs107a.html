@@ -1,0 +1,855 @@
+
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta content="initial-scale=1.0" name="viewport" />
+<script type="text/javascript"
+    src="//uxt.ucsd.edu/common/jquery/1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"
+    src="//act.ucsd.edu/decorators/cms/3/decorate.js?siteName=cape"></script>
+<title>
+	Home > Responses > CAPE Results
+</title></head>
+<body>
+		<!-- insert breadcrumb -->
+		<div id="tdr_crumbs">
+			<div id="tdr_crumbs_content">
+				        <ul id="tdr_crumbs_list">
+            <span id="ctl00_smp"><span>
+                    <li><a id="ctl00_smp_ctl00_HyperLink3" title="Home" href="/">Home</a></li>
+                </span><span></span><span>
+                    <li><a id="ctl00_smp_ctl02_HyperLink3" title="Responses" href="/responses">Responses</a></li>
+                </span><span></span><span>
+                    <li><span id="ctl00_smp_ctl04_lblCurrentNode">CAPE Results</span></li>
+                </span></span>
+        </ul>   
+        
+        
+			</div>
+		</div>
+ 
+        <!-- main content -->
+		<div class="tdr_fonts" id="tdr_content">
+			<div id="tdr_content_content">
+                <!-- <div id="HeaderImage"><h1><span id="ctl00_lblHeaderImageText" class="HeaderImageText">CAPE</span></h1></div> -->
+ 		
+            <!-- BEGIN MAIN CONTENT -->
+            
+
+<style type="text/css" rel="stylesheet" media="all">
+    #ctl00_ContentPlaceHolder1_gvCAPEs th {
+	    text-align: center;
+    }
+	
+	#ctl00_ContentPlaceHolder1_gvCAPEs td,
+	#ctl00_ContentPlaceHolder1_gvCAPEs th {
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs thead th {
+		background:#91c5d4;
+		}
+			
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+		
+	#ctl00_ContentPlaceHolder1_gvCAPEs tbody th {
+		text-align:left;
+		background:#D7E1C5;
+		}
+	
+	tr.even td {
+		background:#EEFFFF;
+	}
+	
+	tbody td{
+		background:#d5eaf0;
+		}
+			
+	tbody tr.hover td { 
+		background:#bcd9e1;
+		}
+</style>
+<script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:odd").addClass("odd");
+        $("#ctl00_ContentPlaceHolder1_gvCAPEs tr:even").addClass("even");
+
+
+        $('#ctl00_ContentPlaceHolder1_gvCAPEs tr').hover(function() {
+                $(this).addClass('hover');
+            }, function() {
+                $(this).removeClass('hover');
+            });
+
+        })
+    })(jQuery);
+</script>
+
+<form name="aspnetForm" method="post" action="Results.aspx?Name=&amp;CourseNumber=cogs+107a" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM3NTUwOTE3OA9kFgJmD2QWAgIJD2QWAgIBD2QWAgIVD2QWAmYPZBYEAgMPZBYCAgEPDxYCHgRUZXh0ZWRkAgUPPCsADQEADxYGHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AhYeB1Zpc2libGVnZBYCZg9kFjBmDw8WAh4MVGFibGVTZWN0aW9uCyopU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5UYWJsZVJvd1NlY3Rpb24AZGQCAQ9kFhRmDw8WAh8ABQ5SYW5nZWwsIExhcmEgTWRkAgEPZBYGAgEPDxYCHwAFBDQ5NzBkZAIDDw8WAh8ABQY5NDU5ODZkZAIFDw8WBB4LTmF2aWdhdGVVcmwFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9OTQ1OTg2HwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQSlkZAICDw8WAh8ABQRGQTE4ZGQCAw8PFgIfAAUDMjAxZGQCBA9kFgICAQ8PFgIfAAUCOTlkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTAuOCAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjk5LjAgJWRkAgcPZBYCAgEPDxYCHwAFBDQuNzFkZAIID2QWBAIBDw8WAh8ABRAzLjU1NjcwMTAzMDkyNzgzZGQCAw8PFgIfAAUJQisgKDMuNTYpZGQCCQ9kFgQCAQ8PFgIfAAUQMy42Mjg4NTU3MjEzOTMwM2RkAgMPDxYCHwAFCUIrICgzLjYzKWRkAgIPZBYUZg8PFgIfAAURQm95bGUsIE1hcnkgRS4gVC5kZAIBD2QWBgIBDw8WAh8ABQQ0OTMwZGQCAw8PFgIfAAUGOTQwNDIyZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD05NDA0MjIfAAUrQ09HUyAxMDdBIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5IChBKWRkAgIPDxYCHwAFBFMxMThkZAIDDw8WAh8ABQI1NWRkAgQPZBYCAgEPDxYCHwAFAjI0ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkxLjcgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5MS43ICVkZAIHD2QWAgIBDw8WAh8ABQQ4LjkyZGQCCA9kFgQCAQ8PFgIfAAUQMy4zMzMzMzMzMzMzMzMzM2RkAgMPDxYCHwAFCUIrICgzLjMzKWRkAgkPZBYEAgEPDxYCHwAFEDMuMzc5MjQ1MjgzMDE4ODdkZAIDDw8WAh8ABQlCKyAoMy4zOClkZAIDD2QWFGYPDxYCHwAFD1BpbmVkYSwgSmFpbWUgQWRkAgEPZBYGAgEPDxYCHwAFBDQ5MjBkZAIDDw8WAh8ABQY5Mzk2MzZkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTkzOTYzNh8ABStDT0dTIDEwN0EgLSBOZXVyb2FuYXRvbXkgYW5kIFBoeXNpb2xvZ3kgKEEpZGQCAg8PFgIfAAUEU1AxOGRkAgMPDxYCHwAFAzI3MGRkAgQPZBYCAgEPDxYCHwAFAzExNWRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4Mi4xICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzguMSAlZGQCBw9kFgICAQ8PFgIfAAUENS43MWRkAggPZBYEAgEPDxYCHwAFEDMuMTE2NTA0ODU0MzY4OTNkZAIDDw8WAh8ABQhCICgzLjEyKWRkAgkPZBYEAgEPDxYCHwAFEDIuODMxNTU3Mzc3MDQ5MThkZAIDDw8WAh8ABQlCLSAoMi44MylkZAIED2QWFGYPDxYCHwAFDlJhbmdlbCwgTGFyYSBNZGQCAQ9kFgYCAQ8PFgIfAAUENDkxMGRkAgMPDxYCHwAFBjkyNTc5M2RkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9OTI1NzkzHwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQSlkZAICDw8WAh8ABQRXSTE4ZGQCAw8PFgIfAAUDMTIzZGQCBA9kFgICAQ8PFgIfAAUCNjJkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTYuNyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBzEwMC4wICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjMzZGQCCA9kFgQCAQ8PFgIfAAUPMy40NDA2Nzc5NjYxMDE3ZGQCAw8PFgIfAAUJQisgKDMuNDQpZGQCCQ9kFgQCAQ8PFgIfAAUQMy42Mzg5ODMwNTA4NDc0NmRkAgMPDxYCHwAFCUIrICgzLjY0KWRkAgUPZBYUZg8PFgIfAAUOUmFuZ2VsLCBMYXJhIE1kZAIBD2QWBgIBDw8WAh8ABQQ0OTAwZGQCAw8PFgIfAAUGOTEzMjc5ZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD05MTMyNzkfAAUrQ09HUyAxMDdBIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5IChBKWRkAgIPDxYCHwAFBEZBMTdkZAIDDw8WAh8ABQMzMjJkZAIED2QWAgIBDw8WAh8ABQMxMzBkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODQuMyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkzLjMgJWRkAgcPZBYCAgEPDxYCHwAFBDcuMDJkZAIID2QWBAIBDw8WAh8ABRAzLjQ1Mjk5MTQ1Mjk5MTQ1ZGQCAw8PFgIfAAUJQisgKDMuNDUpZGQCCQ9kFgQCAQ8PFgIfAAUQMy40NzQ1OTI4MzM4NzYyMmRkAgMPDxYCHwAFCUIrICgzLjQ3KWRkAgYPZBYUZg8PFgIfAAURQm95bGUsIE1hcnkgRS4gVC5kZAIBD2QWBgIBDw8WAh8ABQQ0ODYwZGQCAw8PFgIfAAUGOTA5MTI4ZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD05MDkxMjgfAAUrQ09HUyAxMDdBIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5IChBKWRkAgIPDxYCHwAFBFMxMTdkZAIDDw8WAh8ABQI1N2RkAgQPZBYCAgEPDxYCHwAFAjQ4ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg3LjUgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5MS43ICVkZAIHD2QWAgIBDw8WAh8ABQUxMS4wMWRkAggPZBYEAgEPDxYCHwAFEDMuMjM0MDQyNTUzMTkxNDlkZAIDDw8WAh8ABQhCICgzLjIzKWRkAgkPZBYEAgEPDxYCHwAFEDMuNTMzMzMzMzMzMzMzMzNkZAIDDw8WAh8ABQlCKyAoMy41MylkZAIHD2QWFGYPDxYCHwAFEUJveWxlLCBNYXJ5IEUuIFQuZGQCAQ9kFgYCAQ8PFgIfAAUENDg1MGRkAgMPDxYCHwAFBjkwMTMxOGRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9OTAxMzE4HwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQSlkZAICDw8WAh8ABQRTUDE3ZGQCAw8PFgIfAAUDMTcwZGQCBA9kFgICAQ8PFgIfAAUCNjFkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGNzcuMiAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjY4LjQgJWRkAgcPZBYCAgEPDxYCHwAFBDcuNTRkZAIID2QWBAIBDw8WAh8ABRAzLjA3NTQ3MTY5ODExMzIxZGQCAw8PFgIfAAUIQiAoMy4wOClkZAIJD2QWBAIBDw8WAh8ABRAzLjAxODkwMjQzOTAyNDM5ZGQCAw8PFgIfAAUIQiAoMy4wMilkZAIID2QWFGYPDxYCHwAFEUJveWxlLCBNYXJ5IEUuIFQuZGQCAQ9kFgYCAQ8PFgIfAAUENDgzMGRkAgMPDxYCHwAFBjg4ODg4NGRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9ODg4ODg0HwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQilkZAICDw8WAh8ABQRGQTE2ZGQCAw8PFgIfAAUDMzA0ZGQCBA9kFgICAQ8PFgIfAAUDMTYwZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjgzLjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY1OC44ICVkZAIHD2QWAgIBDw8WAh8ABQQ5LjQ5ZGQCCA9kFgQCAQ8PFgIfAAUQMy4wODU1MjYzMTU3ODk0N2RkAgMPDxYCHwAFCEIgKDMuMDkpZGQCCQ9kFgQCAQ8PFgIfAAUQMy4xOTA0MTA5NTg5MDQxMWRkAgMPDxYCHwAFCEIgKDMuMTkpZGQCCQ9kFhRmDw8WAh8ABRFCb3lsZSwgTWFyeSBFLiBULmRkAgEPZBYGAgEPDxYCHwAFBDQ3OTBkZAIDDw8WAh8ABQY4NzMxNTFkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTg3MzE1MR8ABStDT0dTIDEwN0EgLSBOZXVyb2FuYXRvbXkgYW5kIFBoeXNpb2xvZ3kgKEEpZGQCAg8PFgIfAAUEUzExNmRkAgMPDxYCHwAFAjcyZGQCBA9kFgICAQ8PFgIfAAUCMjRkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTEuMyAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjY5LjYgJWRkAgcPZBYCAgEPDxYCHwAFBTEzLjg5ZGQCCA9kFgQCAQ8PFgIfAAUBM2RkAgMPDxYCHwAFCEIgKDMuMDApZGQCCQ9kFgQCAQ8PFgIfAAUQMi45OTg1MDc0NjI2ODY1N2RkAgMPDxYCHwAFCUItICgzLjAwKWRkAgoPZBYUZg8PFgIfAAUPUGluZWRhLCBKYWltZSBBZGQCAQ9kFgYCAQ8PFgIfAAUENDc2MGRkAgMPDxYCHwAFBjg1MDYyOGRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9ODUwNjI4HwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQSlkZAICDw8WAh8ABQRGQTE1ZGQCAw8PFgIfAAUDMjE3ZGQCBA9kFgICAQ8PFgIfAAUDMTM5ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkyLjYgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4OS4wICVkZAIHD2QWAgIBDw8WAh8ABQQ1LjU1ZGQCCA9kFgQCAQ8PFgIfAAUQMy40MTc5MTA0NDc3NjExOWRkAgMPDxYCHwAFCUIrICgzLjQyKWRkAgkPZBYEAgEPDxYCHwAFEDIuOTk0MTc0NzU3MjgxNTVkZAIDDw8WAh8ABQlCLSAoMi45OSlkZAILD2QWFGYPDxYCHwAFEUJveWxlLCBNYXJ5IEUuIFQuZGQCAQ9kFgYCAQ8PFgIfAAUENDcyMGRkAgMPDxYCHwAFBjg0MjA1M2RkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9ODQyMDUzHwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQSlkZAICDw8WAh8ABQRTMTE1ZGQCAw8PFgIfAAUCNTRkZAIED2QWAgIBDw8WAh8ABQIxNGRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4NS43ICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTIuOSAlZGQCBw9kFgICAQ8PFgIfAAUEOS44OGRkAggPZBYEAgEPDxYCHwAFEDMuMDcxNDI4NTcxNDI4NTdkZAIDDw8WAh8ABQhCICgzLjA3KWRkAgkPZBYEAgEPDxYCHwAFEDMuNjc5MjQ1MjgzMDE4ODdkZAIDDw8WAh8ABQlCKyAoMy42OClkZAIMD2QWFGYPDxYCHwAFD1BpbmVkYSwgSmFpbWUgQWRkAgEPZBYGAgEPDxYCHwAFBDQ2OTBkZAIDDw8WAh8ABQY4MTkzNTVkZAIFDw8WBB8FBSBDQVBFUmVwb3J0LmFzcHg/c2VjdGlvbmlkPTgxOTM1NR8ABStDT0dTIDEwN0EgLSBOZXVyb2FuYXRvbXkgYW5kIFBoeXNpb2xvZ3kgKEEpZGQCAg8PFgIfAAUERkExNGRkAgMPDxYCHwAFAzE4OWRkAgQPZBYCAgEPDxYCHwAFAjc1ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg0LjkgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4Ny43ICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjI1ZGQCCA9kFgQCAQ8PFgIfAAUQMy4wOTg1OTE1NDkyOTU3N2RkAgMPDxYCHwAFCEIgKDMuMTApZGQCCQ9kFgQCAQ8PFgIfAAUQMi43NTc2MjcxMTg2NDQwN2RkAgMPDxYCHwAFCUItICgyLjc2KWRkAg0PZBYUZg8PFgIfAAURQm95bGUsIE1hcnkgRS4gVC5kZAIBD2QWBgIBDw8WAh8ABQQ0NjUwZGQCAw8PFgIfAAUGODEyNDE2ZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD04MTI0MTYfAAUrQ09HUyAxMDdBIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5IChBKWRkAgIPDxYCHwAFBFMxMTRkZAIDDw8WAh8ABQIyNWRkAgQPZBYCAgEPDxYCHwAFATNkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUHMTAwLjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQcxMDAuMCAlZGQCBw9kFgICAQ8PFgIfAAUENy44M2RkAggPZBYEAgEPDxYCHwAFEDMuNjY2NjY2NjY2NjY2NjdkZAIDDw8WAh8ABQlCKyAoMy42NylkZAIJD2QWBAIBDw8WAh8ABQUzLjEwOGRkAgMPDxYCHwAFCEIgKDMuMTEpZGQCDg9kFhRmDw8WAh8ABQ9QaW5lZGEsIEphaW1lIEFkZAIBD2QWBgIBDw8WAh8ABQQ0NjIwZGQCAw8PFgIfAAUGNzgzNDk1ZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD03ODM0OTUfAAUrQ09HUyAxMDdBIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5IChBKWRkAgIPDxYCHwAFBEZBMTNkZAIDDw8WAh8ABQMyMDZkZAIED2QWAgIBDw8WAh8ABQI4OWRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4OS4wICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGODUuNCAlZGQCBw9kFgICAQ8PFgIfAAUENi4xNmRkAggPZBYEAgEPDxYCHwAFDzMuMDEyNjU4MjI3ODQ4MWRkAgMPDxYCHwAFCEIgKDMuMDEpZGQCCQ9kFgQCAQ8PFgIfAAUEMi45MWRkAgMPDxYCHwAFCUItICgyLjkxKWRkAg8PZBYUZg8PFgIfAAURQm95bGUsIE1hcnkgRS4gVC5kZAIBD2QWBgIBDw8WAh8ABQQ0NTgwZGQCAw8PFgIfAAUGNzc5NDAyZGQCBQ8PFgQfBQUgQ0FQRVJlcG9ydC5hc3B4P3NlY3Rpb25pZD03Nzk0MDIfAAUrQ09HUyAxMDdBIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5IChBKWRkAgIPDxYCHwAFBFMxMTNkZAIDDw8WAh8ABQI0NWRkAgQPZBYCAgEPDxYCHwAFAjExZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjgwLjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4MC4wICVkZAIHD2QWAgIBDw8WAh8ABQUxMC4wNmRkAggPZBYEAgEPDxYCHwAFEDMuMjIyMjIyMjIyMjIyMjJkZAIDDw8WAh8ABQhCICgzLjIyKWRkAgkPZBYEAgEPDxYCHwAFEDMuMTUyMzgwOTUyMzgwOTVkZAIDDw8WAh8ABQhCICgzLjE1KWRkAhAPZBYUZg8PFgIfAAUPUGluZWRhLCBKYWltZSBBZGQCAQ9kFgYCAQ8PFgIfAAUENDU1MGRkAgMPDxYCHwAFBjc1MTY1MGRkAgUPDxYEHwUFIENBUEVSZXBvcnQuYXNweD9zZWN0aW9uaWQ9NzUxNjUwHwAFK0NPR1MgMTA3QSAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAoQSlkZAICDw8WAh8ABQRGQTEyZGQCAw8PFgIfAAUDMzA3ZGQCBA9kFgICAQ8PFgIfAAUDMTE0ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjgyLjUgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY4NC41ICVkZAIHD2QWAgIBDw8WAh8ABQQ2Ljk1ZGQCCA9kFgQCAQ8PFgIfAAUEMy4xM2RkAgMPDxYCHwAFCEIgKDMuMTMpZGQCCQ9kFgQCAQ8PFgIfAAUFMi44NTJkZAIDDw8WAh8ABQlCLSAoMi44NSlkZAIRD2QWFGYPDxYCHwAFI0JveWxlLCBNYXJ5IEUuIFQuICAgICAgICAgICAgICAgICAgZGQCAQ9kFgYCAQ8PFgIfAAUENDUxMGRkAgMPDxYCHwAFBjc0Njk1MWRkAgUPDxYEHwUFLS4uL3NjcmlwdHMvZGV0YWlsZWRTdGF0cy5hc3A/U2VjdGlvbklkPTc0Njk1MR8ABS9DT0dTIDEwN0EgIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5ICAgIChBKWRkAgIPDxYCHwAFBFMxMTJkZAIDDw8WAh8ABQI2MWRkAgQPZBYCAgEPDxYCHwAFAjE2ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg3LjUgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY2Ni43ICVkZAIHD2QWAgIBDw8WAh8ABQUxMS45N2RkAggPZBYEAgEPDxYCHwAFBDMuMjVkZAIDDw8WAh8ABQhCICgzLjI1KWRkAgkPZBYEAgEPDxYCHwAFEDMuMjgxMDM0NDgyNzU4NjJkZAIDDw8WAh8ABQhCICgzLjI4KWRkAhIPZBYUZg8PFgIfAAUjUGluZWRhLCBKYWltZSBBICAgICAgICAgICAgICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0NDgwZGQCAw8PFgIfAAUGNzIwNDk3ZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NzIwNDk3HwAFL0NPR1MgMTA3QSAgLSBOZXVyb2FuYXRvbXkgYW5kIFBoeXNpb2xvZ3kgICAgKEEpZGQCAg8PFgIfAAUERkExMWRkAgMPDxYCHwAFAzIzM2RkAgQPZBYCAgEPDxYCHwAFAzEwMWRkAgUPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5NC4xICVkZAIGD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTQuMSAlZGQCBw9kFgICAQ8PFgIfAAUENi44MGRkAggPZBYEAgEPDxYCHwAFEDMuMjkyOTI5MjkyOTI5MjlkZAIDDw8WAh8ABQhCICgzLjI5KWRkAgkPZBYEAgEPDxYCHwAFBTIuOTU0ZGQCAw8PFgIfAAUJQi0gKDIuOTUpZGQCEw9kFhRmDw8WAh8ABSNQaW5lZGEsIEphaW1lIEEgICAgICAgICAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQ0MTBkZAIDDw8WAh8ABQY2ODk1MDBkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD02ODk1MDAfAAUvQ09HUyAxMDdBICAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAgICAoQSlkZAICDw8WAh8ABQRGQTEwZGQCAw8PFgIfAAUDMjA2ZGQCBA9kFgICAQ8PFgIfAAUDMTY0ZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkwLjIgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5MC4xICVkZAIHD2QWAgIBDw8WAh8ABQQ2Ljc2ZGQCCA9kFgQCAQ8PFgIfAAUQMy4wOTg3NjU0MzIwOTg3N2RkAgMPDxYCHwAFCEIgKDMuMTApZGQCCQ9kFgQCAQ8PFgIfAAUFMi43ODhkZAIDDw8WAh8ABQlCLSAoMi43OSlkZAIUD2QWFGYPDxYCHwAFI1BpbmVkYSwgSmFpbWUgQSAgICAgICAgICAgICAgICAgICAgZGQCAQ9kFgYCAQ8PFgIfAAUENDM2MGRkAgMPDxYCHwAFBjY1OTY1MGRkAgUPDxYEHwUFLS4uL3NjcmlwdHMvZGV0YWlsZWRTdGF0cy5hc3A/U2VjdGlvbklkPTY1OTY1MB8ABS9DT0dTIDEwN0EgIC0gTmV1cm9hbmF0b215IGFuZCBQaHlzaW9sb2d5ICAgIChBKWRkAgIPDxYCHwAFBEZBMDlkZAIDDw8WAh8ABQMxNjhkZAIED2QWAgIBDw8WAh8ABQMxMTJkZAIFD2QWBgIBDw8WAh8AZWRkAgMPDxYCHwBlZGQCBQ8PFgIfAAUGOTAuOSAlZGQCBg9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjg5LjMgJWRkAgcPZBYCAgEPDxYCHwAFBDUuNDBkZAIID2QWBAIBDw8WAh8ABQ8zLjE1ODg3ODUwNDY3MjlkZAIDDw8WAh8ABQhCICgzLjE2KWRkAgkPZBYEAgEPDxYCHwAFBTIuODMzZGQCAw8PFgIfAAUJQi0gKDIuODMpZGQCFQ9kFhRmDw8WAh8ABSNQaW5lZGEsIEphaW1lIEEgICAgICAgICAgICAgICAgICAgIGRkAgEPZBYGAgEPDxYCHwAFBDQyOTBkZAIDDw8WAh8ABQY2MjgzNzlkZAIFDw8WBB8FBS0uLi9zY3JpcHRzL2RldGFpbGVkU3RhdHMuYXNwP1NlY3Rpb25JZD02MjgzNzkfAAUvQ09HUyAxMDdBICAtIE5ldXJvYW5hdG9teSBhbmQgUGh5c2lvbG9neSAgICAoQSlkZAICDw8WAh8ABQRGQTA4ZGQCAw8PFgIfAAUDMTg3ZGQCBA9kFgICAQ8PFgIfAAUDMTQyZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkzLjQgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5NS42ICVkZAIHD2QWAgIBDw8WAh8ABQQ2LjIxZGQCCA9kFgQCAQ8PFgIfAAUQMy4zMTExMTExMTExMTExMWRkAgMPDxYCHwAFCUIrICgzLjMxKWRkAgkPZBYEAgEPDxYCHwAFBTIuODU1ZGQCAw8PFgIfAAUJQi0gKDIuODYpZGQCFg9kFhRmDw8WAh8ABR5QaW5lZGEsIEphaW1lIEEgICAgICAgICAgICAgICBkZAIBD2QWBgIBDw8WAh8ABQQ0MjIwZGQCAw8PFgIfAAUGNTk5MjE1ZGQCBQ8PFgQfBQUtLi4vc2NyaXB0cy9kZXRhaWxlZFN0YXRzLmFzcD9TZWN0aW9uSWQ9NTk5MjE1HwAFL0NPR1MgMTA3QSAgLSBOZXVyb2FuYXRvbXkgYW5kIFBoeXNpb2xvZ3kgICAgKEEpZGQCAg8PFgIfAAUERkEwN2RkAgMPDxYCHwAFAzE1MGRkAgQPZBYCAgEPDxYCHwAFAjkxZGQCBQ9kFgYCAQ8PFgIfAGVkZAIDDw8WAh8AZWRkAgUPDxYCHwAFBjkyLjAgJWRkAgYPZBYGAgEPDxYCHwBlZGQCAw8PFgIfAGVkZAIFDw8WAh8ABQY5NS41ICVkZAIHD2QWAgIBDw8WAh8ABQQ1LjI2ZGQCCA9kFgQCAQ8PFgIfAAUQMy4yODA0ODc4MDQ4NzgwNWRkAgMPDxYCHwAFCEIgKDMuMjgpZGQCCQ9kFgQCAQ8PFgIfAAUFMi44MjFkZAIDDw8WAh8ABQlCLSAoMi44MilkZAIXDw8WAh8DaGRkGAEFIWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkZ3ZDQVBFcw88KwAKAQgCAWSY/ESJrTRgIS05D3iRNMJkHZEicw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=P5Ole1VmRRAWFB7t7RlzIchXMsb2EOn7LvjLRNO9wFPj7kpH0jqkZQugvoAMeVfqfAdE8uyX7Ia4S8GLBWo8-mmYXZk1&amp;t=636271419297880478" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Hsr210UXurK1s6DnpGGwKsOTdXZpIDNBjWnIbOe_wYoQCdoQbq2f_0p6LL7tsjAWRxpaE5X4NhfzsIcZHflnbWaMNCqMu_PXOz8YuClso4EAQMIIOQf6CD_vGaARbMsZFr7bTKiwC9F3ljNjUVSSAxb8uIY0JdzPoK6osgzZ9QRoiRXp0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=WNwJGmJE8INsDZ3hQmVfpebZx_Pocv35NZ4Kol5iFZSLiIRfoOjEZAv03u7UFxX9PtuH4oNCafKiqdv2bcoK89AScShqu11sU2qSzkgGkcBdYpeHQa_8rOtNzlqwvozNMJRu03g9NF3nZbE8lvvLAG-GSt8M07r-a-OuU0GV09xfHmhxyWwTlBfe5tFB3sWVDPFZhA2&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Kr75lo_qjnN3FXi5vX6yeG56mdGfbbBOwyBRKiPhkf4KBYTuI8tHj4JVOSG7YqyWylAnn0ko5b9cikupLfTfqDGdPk99DaTKiU_rv_XQfFXDW6GSiSVQ1a8lH9mFJGGy9LOx1raaUFZo-aQid4OwZExB6ko1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=knwzmcJ1wkKqghw1SKuOVdoqZzl6lz1htcBPU2gk6B2M5-6kleTZxqe_785mNa8L42k1utRwNLjxHDdeC8nhLvjy2BlQlCzkJiir2CukF9vpHgZapjHSIA02AJDADcCMLOBCnaBvaSdkzNtradxjaOOyAy41&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5r1yEIVwvFiQQuss57CMbiv5MZRCBsupzi4Vz5vpqipk-CBFQOFs54gACj9zGE6e1I2myEkrIhqWdHwuLGD92jbN76202eOsN0sK58VUpqnnAoANbLbu11zLTw-NOsF44Ev2wDInK-WWomey5wVBx3iZxKI1&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OEgm5rY1-JdHtus_-a2uMDd_-oI0NTTp1xVCm93UDcE5nmZ2Y5YVtMcQ38vG0yhwAb_B_8hrbhST4NnfGA0QFBd2SCQTDXaB86T46dxNeaUyKmXHW-HHesokgFO-LpQvljfwyDjT9JCWzEWDJy_VZoLa6PecXyX7elolGiaEbJ4He92m0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=md5cz-Upg_aPRfFMkLCiwtvDjU05X4J2wJ83ko7l71Yn1x1bq7hpIyZCwK2QV_2Ev_s-xraAe3h2IG6c00T8qT3tyESJmvIx0HLUD8C2Z0sDoQMnMirigeCiy-sBLOZ4R0UPv_dKGgHlSo3o0ikycMsUNF7Aw37WEAIR3OEtYmx3k67F0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FHIj6Il9gHgNj7cC6Y2gyUfgBHVwi_3mW-2AbsxZjK3pN9pDo8nm2RsUaqWJgT_hdqOhEBjOecV18TjACdplG9cM2io4xsLpNiNSJEdAYjxHDLAdVZTZFhRTQIreHcbDU6KgL6DnWYP-C1E_1v6S5uFZpxYrA5qg8cUblcPTQvC3wcnj0&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kas2APMawxak3TGfikb4vMNOHEv3UojdhoDghEcupkTrfOChAkWt9IZ5MblKrg1O2hh5E0pfGgOeioQplXMaY0EllfcekjEK8RtrUcipA_O-VHoJgiR5IJO3ibP_2DMERz3DmHiJU0uLrhdxzLQL1SH_sagYtONzIB7Yb_KRtzEp3pP10&amp;t=68eea9b1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=d0qUtvKp_lRpVJ5_iZHc8FIgdBLyb7fK_uHCf8FyEYLzn2dUMj3owJ6FkAy_R0DaAHoMPIi39avoQPRlMKcrkycGdG5WvxYpbKUn-3DqOtYofIlBX-9yZdS1Zfg0gyXTW9tbyOHGp8WdIHEwUe8OrSmZFkV56mPa0yHrx3JjnScBB25y1RF9d-WL9YFuLasNBroTrw2&amp;t=68eea9b1" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F4DB2D8" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$scriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel1'], [], [], 90);
+//]]>
+</script>
+ 
+
+<div class="cols_wrapper">
+    <div class="col_1_of_2 col">  
+        <h1 style="clear:both;">CAPE Results</h1>
+                
+        <span id="ctl00_ContentPlaceHolder1_lblErrorMessage" class="errormessage"></span>  
+  
+        <div class="field">
+	        <div class="label">
+		        <label for="Name">Name: (Last Name, First Name)</label>
+	        </div>
+	        <div class="input">
+                
+	            <input name="ctl00$ContentPlaceHolder1$txtInstructorName" type="text" maxlength="100" id="ctl00_ContentPlaceHolder1_txtInstructorName" style="width:300px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="courseNumber">Course Number:<br />(ex. BIMM xxx)</label>
+	        </div>
+	        <div class="input">
+                
+                
+                <input name="ctl00$ContentPlaceHolder1$txtCourse" type="text" value="cogs 107a" maxlength="10" id="ctl00_ContentPlaceHolder1_txtCourse" style="width:100px;" />
+	        </div>
+        </div>
+        <div class="field">
+	        <div class="label">
+		        <label for="department">Department</label>
+	        </div>
+	        <div class="input">
+	            <select name="ctl00$ContentPlaceHolder1$ddlDepartments" id="ctl00_ContentPlaceHolder1_ddlDepartments">
+	<option selected="selected" value="">Select a Department</option>
+	<option value="ANTH">ANTH - Anthropology</option>
+	<option value="BENG">BENG - Bioengineering</option>
+	<option value="BIOL">BIOL - Biological Sciences</option>
+	<option value="CAT">CAT  - Sixth College</option>
+	<option value="CENG">CENG - Chemical Engineering</option>
+	<option value="CGS ">CGS - Critical Gender Studies</option>
+	<option value="CHEM">CHEM - Chemistry</option>
+	<option value="CHIN">CHIN - Chinese Studies</option>
+	<option value="COGS">COGS - Cognitive Science</option>
+	<option value="COMM">COMM - Communication</option>
+	<option value="CONT">CONT - Contemporary Issues</option>
+	<option value="CSE">CSE - Computer Science &amp; Engineering</option>
+	<option value="DOC">DOC - Dimensions of Culture</option>
+	<option value="ECE">ECE - Electrical &amp; Computer Eng.</option>
+	<option value="ECON">ECON - Economics</option>
+	<option value="EDS">EDS - Education Studies</option>
+	<option value="ENVR">ENVR - Environmental Studies</option>
+	<option value="ERC ">ERC - ERC</option>
+	<option value="ESYS">ESYS - Environmental Systems</option>
+	<option value="ETHN">ETHN - Ethnic Studies</option>
+	<option value="FILM">FILM - Film</option>
+	<option value="FPMU">FPMU - Family and Preventive Medicine</option>
+	<option value="HDP">HDP - Human Development Program</option>
+	<option value="HIST">HIST - History</option>
+	<option value="HMNR">HMNR - </option>
+	<option value="HUM ">HUM - Humanities</option>
+	<option value="ICAM">ICAM - Inter. Computing and the Arts</option>
+	<option value="INTL">INTL - International Studies</option>
+	<option value="JAPN">JAPN - Japanese Studies</option>
+	<option value="JUDA">JUDA - Judaic Studies</option>
+	<option value="LATI">LATI - Latin American Studies</option>
+	<option value="LAWS">LAWS - Law &amp; Society</option>
+	<option value="LING">LING - Linguistics</option>
+	<option value="LIT">LIT - Literature</option>
+	<option value="MAE">MAE - Mechanical &amp; Aerospace Eng.</option>
+	<option value="MATH">MATH - Mathematics</option>
+	<option value="MMW">MMW - Making of the Modern World</option>
+	<option value="MUIR">MUIR - Muir College</option>
+	<option value="MUS">MUS  - Music</option>
+	<option value="NENG">NENG - NanoEngineering</option>
+	<option value="PHIL">PHIL - Philosophy</option>
+	<option value="PHYS">PHYS - Physics</option>
+	<option value="POLI">POLI - Political Science</option>
+	<option value="PSYC">PSYC - Psychology</option>
+	<option value="RELI">RELI - The Study of Religion</option>
+	<option value="REV">REV - Revelle College</option>
+	<option value="RSM">RSM  - Rady School of Management</option>
+	<option value="SDCC">SDCC - Entry Level Writing</option>
+	<option value="SE">SE  - Structural Engineering</option>
+	<option value="SIO">SIO - SIO</option>
+	<option value="SOC">SOC - Sociology</option>
+	<option value="SOE">SOE - Jacobs School of Engineering</option>
+	<option value="STPA">STPA - Science, Tech, &amp;Public Affairs</option>
+	<option value="SXTH">SXTH - Sixth College</option>
+	<option value="THEA">THEA - Theatre &amp; Dance</option>
+	<option value="TMC">TMC - Thurgood Marshall College</option>
+	<option value="TWS">TWS - Third World Studies</option>
+	<option value="USP">USP - Urban Studies and Planning</option>
+	<option value="VIS">VIS - Visual Arts</option>
+	<option value="WARR">WARR - Warren College</option>
+	<option value="WCWP">WCWP - Warren College Writing Program</option>
+
+</select>
+	        </div>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_UpdateProgress1" style="display:none;">
+	
+            <div class="field">
+	            <div class="input">
+                <img src="../_images/cape_loading.gif" height="25" width="25" alt="Loading ...">
+                </div>
+            </div>
+            
+</div>
+    </div>
+    <div class="col_2_of_2 col">
+        <div style="width:175px; font-size:90%; font-weight:bold; text-align:center;margin-left: auto; margin-right: auto;">
+        <img title="SUNNY G!" src="../_images/cape.png" alt="SUNNY G!" style="width:175px;border-width:0px;padding-bottom:0.5em;" />
+        SUNNY G!
+        </div>
+    </div>
+</div>
+    
+    <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+        <div class="field">
+	        <div class="input">
+	            <input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Search" id="ctl00_ContentPlaceHolder1_btnSubmit" class="button primary" />
+	            <input type="reset" class="button secondary" title="Reset" />
+	        </div>
+        </div>
+        
+            
+			
+    <div>
+		<table class="styled" cellspacing="0" border="0" id="ctl00_ContentPlaceHolder1_gvCAPEs" style="width:100%;border-collapse:collapse;">
+			<thead>
+				<tr>
+					<th scope="col">Instructor</th><th scope="col">Course</th><th scope="col">Term</th><th scope="col">Enroll</th><th scope="col">Evals Made</th><th scope="col">Rcmnd Class</th><th scope="col">Rcmnd Instr</th><th scope="col">Study Hrs/wk</th><th scope="col">Avg Grade Expected</th><th scope="col">Avg Grade Received</th>
+				</tr>
+			</thead><tbody>
+				<tr class="odd">
+					<td>Rangel, Lara M</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_hlViewReport" href="CAPEReport.aspx?sectionid=945986" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>FA18</td><td align="right">201</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">99</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendCourse">90.8 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblPercentRecommendInstructor">99.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblStudyHours">4.71</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeExpected">B+ (3.56)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl02_lblGradeReceived">B+ (3.63)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_hlViewReport" href="CAPEReport.aspx?sectionid=940422" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>S118</td><td align="right">55</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">24</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendCourse">91.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblPercentRecommendInstructor">91.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblStudyHours">8.92</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeExpected">B+ (3.33)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl03_lblGradeReceived">B+ (3.38)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Pineda, Jaime A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_hlViewReport" href="CAPEReport.aspx?sectionid=939636" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>SP18</td><td align="right">270</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">115</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendCourse">82.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblPercentRecommendInstructor">78.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblStudyHours">5.71</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeExpected">B (3.12)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl04_lblGradeReceived">B- (2.83)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Rangel, Lara M</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_hlViewReport" href="CAPEReport.aspx?sectionid=925793" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>WI18</td><td align="right">123</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">62</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendCourse">96.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblStudyHours">6.33</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeExpected">B+ (3.44)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl05_lblGradeReceived">B+ (3.64)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Rangel, Lara M</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_hlViewReport" href="CAPEReport.aspx?sectionid=913279" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>FA17</td><td align="right">322</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">130</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendCourse">84.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblPercentRecommendInstructor">93.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblStudyHours">7.02</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeExpected">B+ (3.45)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl06_lblGradeReceived">B+ (3.47)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_hlViewReport" href="CAPEReport.aspx?sectionid=909128" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>S117</td><td align="right">57</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">48</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendCourse">87.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblPercentRecommendInstructor">91.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblStudyHours">11.01</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeExpected">B (3.23)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl07_lblGradeReceived">B+ (3.53)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_hlViewReport" href="CAPEReport.aspx?sectionid=901318" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>SP17</td><td align="right">170</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">61</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendCourse">77.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblPercentRecommendInstructor">68.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblStudyHours">7.54</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeExpected">B (3.08)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl08_lblGradeReceived">B (3.02)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_hlViewReport" href="CAPEReport.aspx?sectionid=888884" target="_blank">COGS 107A - Neuroanatomy and Physiology (B)</a>
+                </td><td>FA16</td><td align="right">304</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">160</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendCourse">83.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblPercentRecommendInstructor">58.8 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblStudyHours">9.49</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeExpected">B (3.09)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl09_lblGradeReceived">B (3.19)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_hlViewReport" href="CAPEReport.aspx?sectionid=873151" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>S116</td><td align="right">72</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">24</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendCourse">91.3 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblPercentRecommendInstructor">69.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblStudyHours">13.89</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeExpected">B (3.00)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl10_lblGradeReceived">B- (3.00)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_hlViewReport" href="CAPEReport.aspx?sectionid=850628" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>FA15</td><td align="right">217</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">139</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendCourse">92.6 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblPercentRecommendInstructor">89.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblStudyHours">5.55</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeExpected">B+ (3.42)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl11_lblGradeReceived">B- (2.99)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_hlViewReport" href="CAPEReport.aspx?sectionid=842053" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>S115</td><td align="right">54</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">14</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendCourse">85.7 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblPercentRecommendInstructor">92.9 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblStudyHours">9.88</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeExpected">B (3.07)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl12_lblGradeReceived">B+ (3.68)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_hlViewReport" href="CAPEReport.aspx?sectionid=819355" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>FA14</td><td align="right">189</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">75</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendCourse">84.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblPercentRecommendInstructor">87.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblStudyHours">6.25</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeExpected">B (3.10)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl13_lblGradeReceived">B- (2.76)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_hlViewReport" href="CAPEReport.aspx?sectionid=812416" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>S114</td><td align="right">25</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">3</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendCourse">100.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblPercentRecommendInstructor">100.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblStudyHours">7.83</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeExpected">B+ (3.67)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl14_lblGradeReceived">B (3.11)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_hlViewReport" href="CAPEReport.aspx?sectionid=783495" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>FA13</td><td align="right">206</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">89</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendCourse">89.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblPercentRecommendInstructor">85.4 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblStudyHours">6.16</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeExpected">B (3.01)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl15_lblGradeReceived">B- (2.91)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Boyle, Mary E. T.</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_hlViewReport" href="CAPEReport.aspx?sectionid=779402" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>S113</td><td align="right">45</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">11</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendCourse">80.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblPercentRecommendInstructor">80.0 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblStudyHours">10.06</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeExpected">B (3.22)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl16_lblGradeReceived">B (3.15)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A</td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_hlViewReport" href="CAPEReport.aspx?sectionid=751650" target="_blank">COGS 107A - Neuroanatomy and Physiology (A)</a>
+                </td><td>FA12</td><td align="right">307</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">114</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendCourse">82.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblPercentRecommendInstructor">84.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblStudyHours">6.95</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeExpected">B (3.13)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl17_lblGradeReceived">B- (2.85)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Boyle, Mary E. T.                  </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_hlViewReport" href="../scripts/detailedStats.asp?SectionId=746951" target="_blank">COGS 107A  - Neuroanatomy and Physiology    (A)</a>
+                </td><td>S112</td><td align="right">61</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">16</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendCourse">87.5 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblPercentRecommendInstructor">66.7 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblStudyHours">11.97</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeExpected">B (3.25)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl18_lblGradeReceived">B (3.28)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A                    </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_hlViewReport" href="../scripts/detailedStats.asp?SectionId=720497" target="_blank">COGS 107A  - Neuroanatomy and Physiology    (A)</a>
+                </td><td>FA11</td><td align="right">233</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">101</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendCourse">94.1 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblPercentRecommendInstructor">94.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblStudyHours">6.80</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeExpected">B (3.29)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl19_lblGradeReceived">B- (2.95)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Pineda, Jaime A                    </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_hlViewReport" href="../scripts/detailedStats.asp?SectionId=689500" target="_blank">COGS 107A  - Neuroanatomy and Physiology    (A)</a>
+                </td><td>FA10</td><td align="right">206</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">164</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendCourse">90.2 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblPercentRecommendInstructor">90.1 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblStudyHours">6.76</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeExpected">B (3.10)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl20_lblGradeReceived">B- (2.79)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A                    </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_hlViewReport" href="../scripts/detailedStats.asp?SectionId=659650" target="_blank">COGS 107A  - Neuroanatomy and Physiology    (A)</a>
+                </td><td>FA09</td><td align="right">168</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">112</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendCourse">90.9 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblPercentRecommendInstructor">89.3 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblStudyHours">5.40</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeExpected">B (3.16)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl21_lblGradeReceived">B- (2.83)</span>
+                </td>
+				</tr><tr class="odd">
+					<td>Pineda, Jaime A                    </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_hlViewReport" href="../scripts/detailedStats.asp?SectionId=628379" target="_blank">COGS 107A  - Neuroanatomy and Physiology    (A)</a>
+                </td><td>FA08</td><td align="right">187</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">142</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendCourse">93.4 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblPercentRecommendInstructor">95.6 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblStudyHours">6.21</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeExpected">B+ (3.31)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl22_lblGradeReceived">B- (2.86)</span>
+                </td>
+				</tr><tr class="even">
+					<td>Pineda, Jaime A               </td><td>
+                    
+                    
+                    <a id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_hlViewReport" href="../scripts/detailedStats.asp?SectionId=599215" target="_blank">COGS 107A  - Neuroanatomy and Physiology    (A)</a>
+                </td><td>FA07</td><td align="right">150</td><td align="right">
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblCAPEsSubmitted" ItemStyle-HorizontalAlign="Right">91</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendCourse">92.0 %</span>
+                </td><td align="right">
+                    
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblPercentRecommendInstructor">95.5 %</span>
+                </td><td align="right">
+                <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblStudyHours">5.26</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeExpected">B (3.28)</span>
+                </td><td align="right">
+                    
+                    <span id="ctl00_ContentPlaceHolder1_gvCAPEs_ctl23_lblGradeReceived">B- (2.82)</span>
+                </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+        
+</div>
+    
+	<p></p>
+	<p>Questions? Contact CAPE at <a href="mailto:cape@ucsd.edu?subject=Web Stats Question">cape@ucsd.edu</a></p>
+    
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender1","serviceMethod":"GetInstructorNames","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtInstructorName"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.AutoCompleteBehavior, {"completionInterval":1,"completionSetCount":5,"delimiterCharacters":"","enableCaching":false,"id":"ctl00_ContentPlaceHolder1_AutoCompleteExtender2","serviceMethod":"GetCourses","servicePath":"/responses/Results.aspx"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":15,"ValidChars":" ","id":"ctl00_ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtCourse"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ctl00_ContentPlaceHolder1_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+  
+            <!-- END MAIN CONTENT -->
+
+            
+<br/>
+
+
+<img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+			</div>
+		</div>
+		
+        <!-- use this image bug to keep single sign-on sessions alive -->
+        <img src="https://a4.ucsd.edu/tritON/imagebug" alt="" />
+	</body>
+</html>
