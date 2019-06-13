@@ -1,0 +1,127 @@
+movie_name,mean_rating,votes,genre,award_winning,total_gross,budget,age_rating,creative_type,source,production_method,prequel_sequel
+Avengers: Endgame,8.73,89248,Action,0,2728553592,356000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,1
+Star Wars: The Last Jedi,6.82,71458,Action,0,1316721747,317000000,PG-13,Science Fiction,Original Screenplay,Live Action,1
+Avengers: Infinity War,8.75,51642,Action,0,2048134200,300000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,1
+Captain Marvel,6.79,17289,Action,0,1122974126,175000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Guardians of the Galaxy Vol. 2,7.9,15502,Action,0,862316233,200000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,1
+A Quiet Place,8.24,14116,Horror,0,334522294,17000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,0
+Blade Runner: 2049,8.82,13731,Drama,1,259357408,185000000,R,Science Fiction,Based on Fiction Book/Short Story,Live Action,1
+Us,7.78,13479,Horror,0,254210310,20000000,R,Thriller/Suspense,Original Screenplay,Live Action,0
+Bird Box,7.03,13036,Horror,0,NaN,19800000,R,Thriller/Suspense,Based on Fiction Book/Short Story,Live Action,0
+Hereditary,8.14,10985,Horror,0,70133905,10000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+The Cloverfield Paradox,6.1,10981,Horror,0,NaN,45000000,PG-13,Science Fiction,Original Screenplay,Live Action,1
+Dunkirk,8.54,10977,Drama,1,499837368,150000000,PG-13,Dramatization,Original Screenplay,Live Action,0
+Baby Driver,8.58,10592,Drama,0,228104185,34000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+IT,8.22,10517,Horror,0,697457969,35000000,R,Historical Fiction,Remake,Live Action,0
+Deadpool 2,8.31,10247,Action,0,786680557,110000000,R,Super Hero,Based on Comic/Graphic Novel,Live Action,1
+Annihilation,7.84,9837,Horror,0,43070915,55000000,R,Science Fiction,Based on Fiction Book/Short Story,Live Action,0
+Wonder Woman,7.75,9492,Action,0,821133378,150000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Ready Player One,7.12,9148,Action,0,579290136,150000000,PG-13,Science Fiction,Based on Fiction Book/Short Story,Live Action,0
+Thor: Ragnarok,8.41,9094,Action,0,846980024,180000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,1
+Spider-Man: Into the Spider-Verse,9.24,8818,Action,1,375382302,90000000,PG,Super Hero,Based on Comic/Graphic Novel,Animated,0
+Spider-Man: Homecoming,8.36,8586,Action,0,880166350,175000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Solo: A Star Wars Story,7.13,8324,Action,0,393151347,250000000,PG-13,Science Fiction,Spin-Off,Live Action,0
+Bright,7.21,8229,Drama,0,NaN,90000000,R,Fantasy,Original Screenplay,Live Action,0
+Justice League,6.16,7912,Action,0,655945209,300000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Alien: Covenant,6.49,7234,Horror,0,238521247,97000000,R,Science Fiction,Original Screenplay,Live Action,1
+Incredibles 2,8.41,6769,Action,0,1242520711,200000000,PG,Kids Fiction,Original Screenplay,Animated,1
+Black Panther,7.87,6260,Action,1,1348258224,200000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Alita: Battle Angel,7.87,5583,Action,0,402976036,170000000,PG-13,Science Fiction,Based on Comic/Graphic Novel,Live Action,0
+Venom,6.54,5457,Action,0,853628605,116000000,PG-13,Super Hero,Spin-Off,Live Action,0
+Fantastic Beasts: The Crimes of Grindelwald,6.1,5330,Action,0,652220086,200000000,PG-13,Fantasy,Spin-Off,Live Action,1
+Jurassic World: Fallen Kingdom,5.66,5117,Action,0,1305772799,170000000,PG-13,Science Fiction,Based on Fiction Book/Short Story,Live Action,1
+Black Mirror: Bandersnatch,7.71,4958,Horror,0,NaN,NaN,R,Science Fiction,Original Screenplay,Live Action,0
+Pokemon Detective Pikachu,7.39,4904,Drama,0,409630498,150000000,PG,Kids Fiction,Based on Game,Live Action,0
+Your Name,9.19,4792,Drama,0,361024012,NaN,PG,Fantasy,Original Screenplay,Animated,0
+A Star is Born (2018),8.54,4787,Drama,1,433449571,36000000,R,Contemporary Fiction,Remake,Live Action,0
+Aquaman,6.81,4649,Action,0,1146894640,160000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Coco,9.15,4647,Drama,1,798008101,175000000,PG,Kids Fiction,Based on Folk Tale/Legend/Fairytale,Animated,0
+"Three Billboards Outside Ebbing, Missouri",8.35,4623,Drama,1,160191915,12000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Mission: Impossible - Fallout,8.59,4535,Action,0,787456552,178000000,PG-13,Contemporary Fiction,Based on TV,Live Action,1
+mother!,7.06,4430,Horror,0,42531076,30000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Bohemian Rhapsody,7.92,4252,Drama,1,894985342,55000000,PG-13,Dramatization,Based on Real Life Events,Live Action,0
+Ant-Man and The Wasp,7.61,4155,Action,0,623144660,130000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,1
+Shazam,7.85,4079,Action,0,362851909,85000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+Life (2017),6.64,3984,Horror,0,100929666,58000000,R,Science Fiction,Original Screenplay,Live Action,0
+John Wick: Chapter 3,8.4,3982,Action,0,253169102,40000000,R,Contemporary Fiction,Original Screenplay,Live Action,1
+The Shape of Water,7.78,3977,Drama,1,195790794,19500000,R,Historical Fiction,Original Screenplay,Live Action,0
+War for the Planet of the Apes,7.93,3629,Action,0,489592267,152000000,PG-13,Science Fiction,Original Screenplay,Live Action,1
+Crazy Rich Asians,8.04,3489,Comedy,0,238099711,30000000,PG-13,Contemporary Fiction,Based on Fiction Book/Short Story,Live Action,0
+Glass,6.95,3485,Drama,0,245303505,20000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,1
+BlacKkKlansman,8.17,3439,Drama,1,93011385,15000000,R,Dramatization,Based on Factual Book/Article,Live Action,1
+Sorry to Bother You,7.85,3415,Comedy,0,18285560,3200000,R,Science Fiction,Original Screenplay,Live Action,0
+Call Me by Your Name,8.93,3409,Drama,1,41617717,NaN,R,Historical Fiction,Based on Fiction Book/Short Story,Live Action,0
+Kingsman: The Golden Circle,7.3,3280,Action,0,408803696,104000000,R,Contemporary Fiction,Based on Comic/Graphic Novel,Live Action,1
+Death Note,4.2,3183,Horror,0,NaN,NaN,R,Contemporary Fiction,Based on Comic/Graphic Novel,Live Action,0
+Power Rangers,6.94,3101,Action,0,142531552,120000000,PG-13,Kids Fiction,Based on TV,Live Action,0
+Ghost in the Shell (2017),6.16,3070,Action,0,167910690,110000000,PG-13,Science Fiction,Based on Comic/Graphic Novel,Live Action,0
+It Comes At Night,6.64,2974,Horror,0,19720203,5000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Kong: Skull Island,6.7,2945,Action,0,5.61E+08,1.85E+08,PG-13,Science Fiction,Original Screenplay,Live Action,0
+Isle of Dogs,8.44,2944,Comedy,0,58465801,NaN,PG-13,Kids Fiction,Original Screenplay,Animated,0
+Searching,8.72,2887,Horror,0,75371276,NaN,PG-13,Contemporary Fiction,Original Screenplay,Live Action,0
+Godzilla: King of the Monsters,7.23,2869,Action,0,296351819,170000000,PG-13,Science Fiction,Remake,Live Action,1
+Halloween (2018),7.34,2845,Horror,0,390770100,10300000,R,Contemporary Fiction,Original Screenplay,Live Action,1
+Beauty and the Beast (2017),7.35,2676,Drama,0,226650100,1.60E+08,PG,Fantasy,Remake,Live Action,0
+The Greatest Showman,7.97,2631,Drama,0,3.87E+08,84000000,PG,Dramatization,Original Screenplay,Live Action,0
+The Ballad of Buster Scruggs,8.15,2611,Drama,0,NaN,NaN,R,Historical Fiction,Compilation,Live Action,0
+Lady Bird,8.42,2592,Drama,0,78610769,10000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Okja,8.04,2570,Action,0,2049823,NaN,PG-13,Science Fiction,Original Screenplay,Live Action,0
+Jumanji: Welcome to the Jungle,7.5,2554,Action,0,964496193,90000000,PG-13,Fantasy,Original Screenplay,Live Action,0
+Valerian and the City of a Thousand Planets,6.05,2511,Action,0,215098356,180000000,PG-13,Science Fiction,Based on Comic/Graphic Novel,Live Action,0
+The Emoji Movie,3.38,2433,Action,0,216568979,50000000,PG ,Kids Fiction,Original Screenplay,Animated,0
+Bad Times at the El Royale,7.91,2384,Action,0,29204379,32000000,R,Historical Fiction,Original Screenplay,Live Action,0
+The Disaster Artist,8.32,2229,Comedy,0,28717667,10000000,R,Dramatization,Based on Factual Book/Article,Live Action,0
+Wind River,8.5,2127,Action,0,44998252,NaN,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Roma,7.85,2058,Drama,1,1112333,NaN,R,Dramatization,Based on Real Life Events,Live Action,0
+Aladdin,7.3,2051,Action,0,612958331,182000000,PG,Fantasy,Remake,Live Action,0
+Sicario: Day of the Soldado,7.26,2003,Action,0,75885196,35000000,R,Contemporary Fiction,Original Screenplay,Live Action,1
+First Man,7.87,1991,Drama,1,104551148,60000000,PG-13,Dramatization,Based on Factual Events,Live Action,0
+Upgrade (2018),8.23,1947,Horror,0,16553285,3000000,R,Science Fiction,Original Screenplay,Live Action,0
+King Arthur: Legend of the Sword,7.01,1925,Action,0,139639336,175000000,PG-13,Fantasy,Based on Folk Tale/Legend/Fairytale,Live Action,0
+Pacific Rim: Uprising,5.68,1916,Action,0,290930148,155000000,PG-13,Science Fiction,Original Screenplay,Live Action,1
+Triple Frontier,6.68,1915,Action,0,NaN,NaN,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Pirates of the Caribbean: Dead Men Tell No Tales,6.16,1899,Action,0,788241137,230000000,PG-13,Fantasy,Based on Theme,Live Action,1
+"Love, Simon",8.55,1860,Drama,0,65520633,10000000,PG-13,Contemporary Fiction,Based on Fiction,Live Action,0
+Atomic Blonde,7.3,1813,Action,0,98345423,30000000,R,Historical Fiction,Based on Comic/Graphic Novel,Live Action,0
+Ralph Breaks the Internet,7.21,1809,Action,0,519403998,175000000,PG ,Kids Fiction,Original Screenplay,Animated,1
+Velvet Buzzsaw,5.73,1803,Horror,0,NaN,21000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Murder on the Orient Express (2017),6.93,1758,Drama,0,345922730,55000000,PG-13,Historical Fiction,Based on Comic/Graphic Novel,Live Action,0
+The Fate of the Furious,6.61,1749,Action,0,1234846267,250000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,1
+Phantom Thread,8.13,1662,Drama,1,47410406,NaN,R,Historical Fiction,Original Screenplay,Live Action,0
+Mandy,8.01,1638,Horror,0,1427656,6000000,R,Historical Fiction,Original Screenplay,Live Action,0
+Dragon Ball Super: Broly,8.52,1610,Action,0,122747755,8500000,PG,Fantasy,Based on TV,Animation,1
+Logan Lucky,7.75,1600,Comedy,0,44264271,29000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,0
+Eighth Grade,8.44,1572,Drama,0,14341016,2000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Tomb Raider,6.54,1564,Action,0,273477501,90000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,0
+Downsizing,4.58,1543,Comedy,0,54462971,68000000,R,Science Fiction,Original Screenplay,Live Action,0
+The Favourite,7.96,1522,Comedy,1,94113929,15000000,R,Dramatization,Based on Real Life Events,Live Action,0
+Overlord,7.61,1487,Action,0,39178189,NaN,R,Historical Fiction,Original Screenplay,Live Action,0
+The Nun,5.42,1468,Horror,0,363676447,NaN,R,Contemporary Fiction,Spin-Off,Live Action,0
+Vice,7.34,1454,Comedy,1,70883171,60000000,R,Dramatization,Based on Real Life Events,Live Action,0
+Game Night,8,1416,Comedy,0,117378084,37000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+A Simple Favor,7.25,1401,Action,0,97174917,20000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+How to Train Your Dragon: The Hidden World,8.12,1387,Action,0,381161242,129000000,PG,Kids Fiction,Original Screenplay,Animated,1
+Ocean's 8,6.45,1376,Action,0,297115976,70000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,1
+Transformers: The Last Knight,4.16,1376,Action,0,602893340,217000000,PG-13,Science Fiction,Based on TV,Animation/Live Action,1
+The Predator,5.1,1373,Action,0,159487563,88000000,R,Science Fiction,Original Screenplay,Live Action,1
+The Dark Tower,5.01,1319,Action,0,113461527,60000000,PG-13,Science Fiction,Based on Fiction Book/Short Story,Live Action,0
+Hold the Dark,5.57,1289,,0,NaN,NaN,,,,,
+Mid90s,8.01,1288,Drama,0,8985571,NaN,,Historical Fiction,Original Screenplay,Live Action,0
+"I, Tonya",8.27,1269,Comedy,1,53797409,11000000,R,Dramatization,Based on Real Life Events,Live Action,0
+Booksmart,8.08,1246,,0,,NaN,,,,,
+Gerald's Game,7.68,1239,,0,,NaN,,,,,
+Pet Sematary,5.88,1216,Horror,0,109501146,21000000,R,Contemporary Fiction,Remake,Live Action,0
+Bumblebee,7.12,1213,Action,0,465195589,102000000,PG-13,Science Fiction,Based on Toy,Live Action,1
+Dark Phoenix,5.27,1210,Action,0,146190534,350000000,PG-13,Super Hero,Based on Comic/Graphic Novel,Live Action,0
+The Death of Stalin,8.27,1197,,0,20434377,NaN,,,,,
+The Big Sick,8.42,1180,Comedy,0,53972860,5000000,R,Dramatization,Based on Real Life Events,Live Action,0
+Creed II,7.88,1158,Drama,0,213591522,50000000,PG-13,Contemporary Fiction,Original Screenplay,Live Action,1
+Outlaw King,7.42,1133,,0,,NaN,,,,,
+"Extremely Wicked, Shockingly Evil, and Vile",6.83,1122,,0,,NaN,,,,,
+The Florida Project,8.29,1121,Drama,0,11295324,2000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+The Mummy (2017),4.95,1089,Action,0,409953905,195000000,PG-13,Historical Fiction,Remake,Live Action,0
+Suspiria (2018),7.87,1076,Horror,0,7021714,20000000,R,Historical Fiction,Remake,Live Action,0
+A Wrinkle in Time,4.03,1067,Drama,0,33401882,103000000,PG,Fantasy,Based on Fiction Book/Short Story,Live Action,0
+The Circle,4.25,1065,Drama,0,40651864,18000000,PG-13,Science Fiction,Based on Fiction Book/Short Story,Live Action,0
+Girls Trip,5.92,1045,Comedy,0,140886353,28000000,R,Contemporary Fiction,Original Screenplay,Live Action,0
+Red Sparrow,6.65,1030,Action,0,145951861,69000000,R,Contemporary Fiction,Based on Fiction Book/Short Story,Live Action,0
